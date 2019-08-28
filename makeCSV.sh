@@ -13,6 +13,16 @@ for f in $(find ${musicpath} -name '*.flac'); do
   album=$(echo $(metaflac --show-tag=album "$f") | awk '{ sub("^.*?=",""); print $0; }')
   title=$(echo $(metaflac --show-tag=title "$f") | awk '{ sub("^.*?=",""); print $0; }')
 
+if [ "${artist}" == "" ]; then
+  artist="-"
+fi
+if [ "${album}" == "" ]; then
+  album="-"
+fi
+if [ "${title}" == "" ]; then
+  title="-"
+fi
+
   sortkey="${artist}${album}${num}====="
 
   echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t70" >> all.csv

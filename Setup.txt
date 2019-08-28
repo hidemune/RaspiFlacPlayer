@@ -37,8 +37,8 @@ sudo update-alternatives --config x-session-manager
 startxfce4 を選択した後、再起動。
 reboot
 
-git clone https://github.com/hidemune/LinuxKaraoke.git
-cd LinuxKaraoke
+git clone https://github.com/hidemune/RaspiFlacPlayer.git
+cd RaspiFlacPlayer
 sudo ./jyunbi.sh
 (ここで、tomcat7系のエラーは無視して構いません)
 

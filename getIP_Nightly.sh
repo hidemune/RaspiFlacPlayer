@@ -4,7 +4,7 @@ cd /home/pi/
 bash start-ap-management-wifi.sh
 
 rm -f /var/lib/tomcat8/webapps/ROOT/start
-cd /home/pi/git/LinuxKaraoke/
+cd /home/pi/git/RaspiFlacPlayer/
 
 str=`ifconfig | grep "inet 192"`
 ip=$(echo "$str" | awk '{print $2}')
@@ -44,7 +44,7 @@ while [ 1 ]; do
     xte 'keyup Alt_L'
     xte 'key N'
 
-    sudo /home/pi/git/LinuxKaraoke/startNightly.sh
+    sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
     sudo shutdown now
     exit 0
   fi
