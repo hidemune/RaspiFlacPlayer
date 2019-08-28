@@ -4,14 +4,16 @@ musicpath=/home/pi/Music/
 rm -f all.csv
 IFS='
 '
-for f in $(find ${musicpath} -name '*.flac'); do
+for f in $(find ${musicpath} -name '*\.*'); do
   fname=$f
-  tracknumber=0000$(echo $(metaflac --show-tag=tracknumber "$f") | awk '{ sub("^.*=",""); print $0; }')
+  text="$(ffprobe "$f" 2>&1 1>/dev/null)"
+  echo "$text"
+  tracknumber="    "$(echo "$text" | grep -m 1 -i " track " | awk '{ sub("^.*:",""); print $0; }')
   num=$(echo ${tracknumber} | rev | cut -c 1-3 | rev)
 
-  artist=$(echo $(metaflac --show-tag=artist "$f") | awk '{ sub("^.*?=",""); print $0; }')
-  album=$(echo $(metaflac --show-tag=album "$f") | awk '{ sub("^.*?=",""); print $0; }')
-  title=$(echo $(metaflac --show-tag=title "$f") | awk '{ sub("^.*?=",""); print $0; }')
+  artist=$(echo "$text" | grep -m 1 -i " artist " | awk '{ sub("^.*?:",""); print $0; }')
+  album=$(echo "$text" | grep -m 1 -i " album " | awk '{ sub("^.*?:",""); print $0; }')
+  title=$(echo "$text" | grep -m 1 -i " title " | awk '{ sub("^.*?:",""); print $0; }')
 
 if [ "${artist}" == "" ]; then
   artist="-"

@@ -38,12 +38,13 @@ do
     ./random.sh
   fi
 
-  while [[ $(pgrep play) ]] ; do 
+  while [[ $(pgrep play || pgrep vlc) ]] ; do 
     # STOP !
     if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
       #trap 'wait $PID' EXIT
       echo STOP !!!
       sudo kill -9 `pgrep play`
+      sudo kill -9 `pgrep vlc`
       exit 0
     fi
     # CANCEL !
@@ -52,6 +53,7 @@ do
       #trap 'wait $PID' EXIT
       echo CANCEL !!
       sudo kill -9 `pgrep play`
+      sudo kill -9 `pgrep vlc`
       break
     fi
     # Volume set
@@ -66,6 +68,7 @@ do
       if [ ${#lslst[*]} -gt 0 ] ; then
         echo que-CANCEL !!
         sudo kill -9 `pgrep play`
+        sudo kill -9 `pgrep vlc`
         break
       fi
     fi

@@ -6,7 +6,7 @@ IFS='
 
 num_images=${#images[*]}
 echo MAX : $num_images
-if [ 0${preNum} -ge 0 ] ; then
+if [ ${preNum} -ge 0 ] ; then
   export preNum=-1
 fi
 
