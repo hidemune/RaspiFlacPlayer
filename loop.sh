@@ -25,15 +25,29 @@ do
     mode=2 #QUE:2
     qfiles=(`ls /var/lib/tomcat8/webapps/ROOT/que* -1 2>/dev/null`)
     ./PlMusic.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`"
+    sleep 3
     echo Kettei : 「"`cat ${qfiles[0]}`"」 
     rm -f ${qfiles[0]}
+    while [[ $(pgrep play || pgrep vlc) ]] ; do
+      #echo Sleep-A
+      sleep 1
+      # CANCEL !
+      if [ -f /var/lib/tomcat8/webapps/ROOT/cancel ] ; then
+        rm /var/lib/tomcat8/webapps/ROOT/cancel
+        #trap 'wait $PID' EXIT
+        echo CANCEL !!
+        sudo kill -9 `pgrep play`
+        sudo kill -9 `pgrep vlc`
+        break
+      fi
+    done
   else
     mode=1 #RANDOM:1
     #break
   fi
 
   # to RANDOM
-  if [ $mode -le 1 ] ; then
+  if [ ${mode} -le 1 ] ; then
     mode=1 #RANDOM:1
     if [[ $(pgrep play || pgrep vlc) ]]; then
       :
@@ -77,6 +91,7 @@ do
         break
       fi
     fi
+    #echo Sleep-B
     sleep 1
   done
 done

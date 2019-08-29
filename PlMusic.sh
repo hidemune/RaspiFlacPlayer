@@ -23,4 +23,3 @@ else
   sudo -u pi cvlc --play-and-exit "$1" &
 fi
 echo Player started.
-sleep 5
