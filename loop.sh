@@ -40,6 +40,12 @@ do
         sudo kill -9 `pgrep vlc`
         break
       fi
+      # Volume set
+      if [ -f /var/lib/tomcat8/webapps/ROOT/volume ] ; then
+        vol=`cat /var/lib/tomcat8/webapps/ROOT/volume`
+        #echo VOLUME : ${vol}
+        ./volume.sh ${vol}
+      fi
     done
   else
     mode=1 #RANDOM:1
