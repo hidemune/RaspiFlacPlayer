@@ -26,7 +26,7 @@ do
     qfiles=(`ls /var/lib/tomcat8/webapps/ROOT/que* -1 2>/dev/null`)
     ./PlMusic.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`"
     sleep 3
-    echo Kettei : 「"`cat ${qfiles[0]}`"」 
+    #echo Kettei : 「"`cat ${qfiles[0]}`"」 
     rm -f ${qfiles[0]}
     while [[ $(pgrep play || pgrep vlc) ]] ; do
       #echo Sleep-A
