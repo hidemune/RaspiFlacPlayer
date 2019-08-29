@@ -24,7 +24,7 @@ do
     # QUE
     mode=2 #QUE:2
     qfiles=(`ls /var/lib/tomcat8/webapps/ROOT/que* -1 2>/dev/null`)
-    ./omx_player.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`"
+    ./PlMusic.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`"
     echo Kettei : 「"`cat ${qfiles[0]}`"」 
     rm -f ${qfiles[0]}
   else
@@ -35,7 +35,12 @@ do
   # to RANDOM
   if [ $mode -le 1 ] ; then
     mode=1 #RANDOM:1
-    ./random.sh
+    if [[ $(pgrep play || pgrep vlc) ]]; then
+      :
+    else
+      echo Random Shell !
+      ./random.sh
+    fi
   fi
 
   while [[ $(pgrep play || pgrep vlc) ]] ; do 

@@ -26,4 +26,4 @@ echo RandomFileName _ "${fileNm[0]}"
 vol="${fileNm[4]}"
 echo volumeFromCSV: ${vol}
 echo ${vol} > /var/lib/tomcat8/webapps/ROOT/volume
-./omx_player.sh "${fileNm[0]}" ${vol}
+./PlMusic.sh "${fileNm[0]}" ${vol}

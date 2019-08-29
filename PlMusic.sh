@@ -7,6 +7,9 @@ echo ${volume} > /var/lib/tomcat8/webapps/ROOT/volume
 ./volume.sh ${volume}
 #omxplayer -o alsa "$1" &
 
+sudo kill -9 `pgrep play`
+sudo kill -9 `pgrep vlc`
+
 ext=$(echo $1 | rev | cut -c 1-4 | rev)
 if [ "${ext}" = "flac" ]; then
   rate=$(metaflac --show-sample-rate "$1")
@@ -19,3 +22,5 @@ if [ "${ext}" = "flac" ]; then
 else
   sudo -u pi cvlc --play-and-exit "$1" &
 fi
+echo Player started.
+sleep 5
