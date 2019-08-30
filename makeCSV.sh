@@ -5,29 +5,35 @@ rm -f all.csv
 IFS='
 '
 for f in $(find ${musicpath} -name '*\.*'); do
-  fname=$f
+  fname="$f"
+  base=$(basename "$f")
+  vol=70
+  vstr=$(echo ${f%.*} | rev | cut -c 1-4 | rev)
+  if [[ ${vstr} =~ ^.*_([0-9]+)$ ]]; then
+    vol=${BASH_REMATCH[1]}
+  fi
   text="$(ffprobe "$f" 2>&1 1>/dev/null)"
   echo "$text"
-  tracknumber="    "$(echo "$text" | grep -m 1 -i " track " | awk '{ sub("^.*:",""); print $0; }')
+  tracknumber="    "$(echo "$text" | grep -m 1 -i " track " | awk '{ sub("[^.]* : ",""); print $0; }')
   num=$(echo ${tracknumber} | rev | cut -c 1-3 | rev)
 
-  artist=$(echo "$text" | grep -m 1 -i " artist " | awk '{ sub("^.*?:",""); print $0; }')
-  album=$(echo "$text" | grep -m 1 -i " album " | awk '{ sub("^.*?:",""); print $0; }')
-  title=$(echo "$text" | grep -m 1 -i " title " | awk '{ sub("^.*?:",""); print $0; }')
+  artist=$(echo "$text" | grep -m 1 -i " artist " | awk '{ sub("[^.]* : ",""); print $0; }')
+  album=$(echo "$text" | grep -m 1 -i " album " | awk '{ sub("[^.]* : ",""); print $0; }')
+  title=$(echo "$text" | grep -m 1 -i " title " | awk '{ sub("[^.]* : ",""); print $0; }')
 
-if [ "${artist}" == "" ]; then
-  artist="-"
-fi
-if [ "${album}" == "" ]; then
-  album="-"
-fi
-if [ "${title}" == "" ]; then
-  title="-"
-fi
+  if [ "${artist}" == "" ]; then
+    artist="-"
+  fi
+  if [ "${album}" == "" ]; then
+    album="-"
+  fi
+  if [ "${title}" == "" ]; then
+    title="-"
+  fi
 
   sortkey="${artist}${album}${num}====="
 
-  echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t70" >> all.csv
+  echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t${vol}" >> all.csv
 done
 
 sort all.csv > all_dayly.csv
