@@ -6,8 +6,7 @@ bash start-ap-management-wifi.sh
 rm -f /var/lib/tomcat8/webapps/ROOT/start
 cd /home/pi/git/RaspiFlacPlayer/
 
-str=`ifconfig | grep "inet 192"`
-ip=$(echo "$str" | awk '{print $2}')
+ip=`hostname -I | awk '{print $1}'`
 
 if [ "${ip}" == "" ]; then
   echo WiFi設定を、必要に応じて行ってください。
@@ -17,8 +16,7 @@ if [ "${ip}" == "" ]; then
   sleep 60
 fi
 
-str2=`ifconfig | grep "inet 192"`
-ip2=$(echo "$str2" | awk '{print $2}' | sed -n 1P)
+ip2=`hostname -I | awk '{print $1}'`
 
 if [ "${ip2}" == "" ]; then
   echo ネットワークアドレスを取得できません。
@@ -35,7 +33,7 @@ echo ${url}
 
 qrencode -t ansi "${url}"
 
-touch /var/lib/tomcat8/webapps/ROOT/start
+#touch /var/lib/tomcat8/webapps/ROOT/start
 
 while [ 1 ]; do
   if [ -f /var/lib/tomcat8/webapps/ROOT/start ]; then

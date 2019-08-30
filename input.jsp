@@ -1,3 +1,4 @@
+<!-- あ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
  import="java.io.*,java.util.*,java.text.*,java.nio.file.*" %>
 <!DOCTYPE html>
@@ -17,7 +18,7 @@
 <script>
 function submitForm(filename, vol) {
     alert("予約 : " + filename);
-    //alert(vol);
+    //alert(vol);<%@ page contentType="text/html; charset=UTF-8" %>
     var http = new XMLHttpRequest();
     http.open("POST", "kettei.jsp", true);
     http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
@@ -50,8 +51,7 @@ function submitForm(filename, vol) {
       //out.println("<br>");
       if (file.toString().startsWith(application.getRealPath("./que"))) {
         if (file.exists()) {
-          FileReader objFr=new FileReader(file);
-          BufferedReader objBr=new BufferedReader(objFr);
+          BufferedReader objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
           String line = "";
           while((line = objBr.readLine()) != null){
             out.println((idx) + ":" + line.substring(line.lastIndexOf("/")+1,line.length()) + "<br>");
@@ -100,8 +100,9 @@ function submitForm(filename, vol) {
   String add2 = strTxt2;
 
     String[] rrk = new String[20];
-    FileReader objFr=new FileReader(application.getRealPath("rireki"));
-    BufferedReader objBr=new BufferedReader(objFr);
+    File file=new File(application.getRealPath("rireki"));
+    BufferedReader objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+
     String line = "";
     int i = 0;
     while((line = objBr.readLine()) != null){
@@ -119,8 +120,9 @@ function submitForm(filename, vol) {
     }
     objBr.close();
     //write
-    FileWriter objFw=new FileWriter(application.getRealPath("rireki"));
-    BufferedWriter objBw=new BufferedWriter(objFw);
+    file=new File(application.getRealPath("rireki"));
+    BufferedWriter objBw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file),"UTF-8"));
+
     if (add0.trim().equals("")) {
       //no
     }else {
@@ -164,7 +166,7 @@ function submitForm(filename, vol) {
 
 <div id="main"><!-- ########## ここから本文です ########## -->
 <div id="main2"><!-- 縁を 20px あけるためのものです -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 入力： <%=strTxt0%>：<%=strTxt1%>：<%=strTxt2%>：検索します<br>
 
       検索ワード？
@@ -172,9 +174,9 @@ function submitForm(filename, vol) {
       <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0,this.value)">
       <option value=""></option>
 <%
- objFr=new FileReader(application.getRealPath("rireki"));
- objBr=new BufferedReader(objFr);
- line = "";
+  file=new File(application.getRealPath("rireki"));
+  objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+  line = "";
 while((line = objBr.readLine()) != null){
       out.println("<option value=" + line + ">" + line + "</option>");
 }
@@ -187,8 +189,8 @@ objBr.close();
       <select name="select1" class="selectBox" id="selBox1" onChange="getSelect(1,this.value)">
       <option value=""></option>
 <%
-objFr=new FileReader(application.getRealPath("rireki"));
-objBr=new BufferedReader(objFr);
+file=new File(application.getRealPath("rireki"));
+objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 line = "";
 while((line = objBr.readLine()) != null){
       out.println("<option value=" + line + ">" + line + "</option>");
@@ -202,8 +204,8 @@ objBr.close();
       <select name="select2" class="selectBox" id="selBox2" onChange="getSelect(2,this.value)">
       <option value=""></option>
 <%
-objFr=new FileReader(application.getRealPath("rireki"));
-objBr=new BufferedReader(objFr);
+file=new File(application.getRealPath("rireki"));
+objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 line = "";
 while((line = objBr.readLine()) != null){
       out.println("<option value=" + line + ">" + line + "</option>");
@@ -227,8 +229,9 @@ function getText(unit) {
 </script>
 
  <%
-objFr=new FileReader(application.getRealPath("all.csv"));
-objBr=new BufferedReader(objFr);
+file=new File(application.getRealPath("all.csv"));
+objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+
 line = "";
 out.println("<table border='1' >");
         out.println("<tr>");
