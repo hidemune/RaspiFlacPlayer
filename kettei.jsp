@@ -33,21 +33,20 @@
     File file = new File(application.getRealPath("que" + sdf.format(Calendar.getInstance().getTime())));
     file.setWritable(true);
 
-    FileWriter objFr=new FileWriter(file);
-    BufferedWriter objBr=new BufferedWriter(objFr);
-    objBr.write(strTxt);
-    objBr.write("\n");
+    BufferedWriter objBw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file),"UTF-8"));
+    objBw.write(strTxt);
+    objBw.write("\n");
 
     if (volume != null) {
       //write
-      objBr.write(volume);
-      objBr.write("\n");
+      objBw.write(volume);
+      objBw.write("\n");
     } else {
-      objBr.write("70");
-      objBr.write("\n");
+      objBw.write("70");
+      objBw.write("\n");
     }
 
-    objBr.close();
+    objBw.close();
   }
  %>
     <br>
