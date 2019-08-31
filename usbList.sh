@@ -8,7 +8,17 @@ mount /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
   echo No USB...
-  ./makeCSV.sh /home/pi/Videos/
+  find /home/pi/Videos/ | sort > work.txt
+
+  if diff -q work.txt bkup.txt >/dev/null ; then
+    sudo ./getIP_Nightly.sh
+  else
+    # Diff!
+    sudo cp -f work.txt bkup.txt
+    ./makeCSV.sh /home/pi/Videos/
+    sudo ./getIP_Nightly.sh
+  fi
+
   sudo ./getIP_Nightly.sh
   exit 0
 fi
