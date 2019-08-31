@@ -34,4 +34,5 @@ else
   sudo cp -f work.txt bkup.txt
   ./makeCSV.sh $(lsblk -n -o MOUNTPOINT /dev/sda1)
   sudo ./getIP_Nightly.sh
+  sudo umount $(lsblk -n -o MOUNTPOINT /dev/sda1)
 fi

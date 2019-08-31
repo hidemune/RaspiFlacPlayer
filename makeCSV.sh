@@ -9,7 +9,7 @@ fi
 rm -f all.csv
 IFS='
 '
-for f in $(find ${musicpath} -name '*\.*'); do
+for f in $(find ${musicpath} -type f); do
   fname="$f"
   base=$(basename "$f")
   vol=70
