@@ -13,7 +13,7 @@ for f in $(find ${musicpath} -name '*\.*'); do
   fname="$f"
   base=$(basename "$f")
   vol=70
-  vstr=$(echo ${f%.*} | rev | cut -c 1-4 | rev)
+  vstr=$(echo ${f%.*} | rev 2>/dev/null | cut -c 1-4 | rev 2>/dev/null)
   if [[ ${vstr} =~ ^.*_([0-9]+)$ ]]; then
     vol=${BASH_REMATCH[1]}
   fi

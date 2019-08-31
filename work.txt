@@ -1,37 +1,410 @@
-/home/pi/Videos/
-/home/pi/Videos/Nature
-/home/pi/Videos/Nature/4k 絶景 癒し自然映像 「新緑の上高地 梓川と穂高連峰」5月下旬 信州松本 Japan Kamikochi Natur.m4v
-/home/pi/Videos/Nature/Forest - 9796.m4v
-/home/pi/Videos/Nature/River - 14205.mp4
-/home/pi/Videos/Nature/Sky.m4v
-/home/pi/Videos/Nature/Waterfall - 24515.mp4
-/home/pi/Videos/Nature/宇宙の大きさを体感できる動画（Mitaka 版.mp4
-/home/pi/Videos/Plane
-/home/pi/Videos/Plane/BCBE_1330.m4v
-/home/pi/Videos/Plane/BULE_IMPLUSE.m4v
-/home/pi/Videos/Plane/Blueimpulseshort.m4v
-/home/pi/Videos/Plane/Plane.MP4
-/home/pi/Videos/Plane/PlaneShort.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN
-/home/pi/Videos/UNISON SQUARE GARDEN/UNISON SQUARE GARDEN「プログラムcontinued(15th style)」Music Video.mp4
-/home/pi/Videos/UNISON SQUARE GARDEN/USG_fun_time_724_1.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/USG_fun_time_724_2.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Coast.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Invisible Sensation.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Invisible Sensation2.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Invisible Sensation3.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Invisible Sensation4.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg Que.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/Usg20180307Dvd.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.mp4
-/home/pi/Videos/UNISON SQUARE GARDEN/オリオンをなぞる.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN/シュガーソングとビターステップ.m4v
-/home/pi/Videos/YMCK
-/home/pi/Videos/YMCK/YmckDVD.MP4
-/home/pi/Videos/ami_sakaguchi
-/home/pi/Videos/ami_sakaguchi/BlueSigns.m4v
-/home/pi/Videos/ami_sakaguchi/坂口有望 bluesigns short.mp4
-/home/pi/Videos/ami_sakaguchi/坂口有望 「地球-まる-」 Music Video - YouTube.mp4
-/home/pi/Videos/ami_sakaguchi/坂口有望 『好-じょし-』Music Video - YouTube.mp4
-/home/pi/Videos/ami_sakaguchi/坂口有望 放課後ジャーニー.m4v
-/home/pi/Videos/ami_sakaguchi/坂口有望 放課後ジャーニー_Short.mp4
+/home/pi/mount
+/home/pi/mount/.Trash-1000
+/home/pi/mount/.Trash-1000/expunged
+/home/pi/mount/.Trash-1000/files
+/home/pi/mount/.Trash-1000/info
+/home/pi/mount/Music
+/home/pi/mount/Music/CD
+/home/pi/mount/Music/CD/UNISON
+/home/pi/mount/Music/CD/UNISON/0010887898.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/01 - UNISON SQUARE GARDEN - アナザーワールド.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/02 - UNISON SQUARE GARDEN - センチメンタルピリオド.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/03 - UNISON SQUARE GARDEN - さよなら第九惑星.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/04 - UNISON SQUARE GARDEN - サーチライト.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/05 - UNISON SQUARE GARDEN - ライトフライト.flac
+/home/pi/mount/Music/CD/UNISON/UNISON - 新世界ノート/06 - UNISON SQUARE GARDEN - 箱庭ロック・ショー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/01 - 10% roll, 10% romance.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/02 - RUNNERS HIGH REPRISE.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/03 - flat song.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/01 - to the CIDER ROAD.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/02 - ため息 shooting the MOON.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/03 - リニアブルーを聴きながら (「劇場版 TIGER&BUNNY The Beginning」主題歌).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/04 - like coffeeのおまじない.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/05 - お人好しカメレオン.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/06 - 光のどけき春の日に.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/07 - クロスハート1号線 (advantage in a long time).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/08 - セレナーデが止まらない.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/09 - 流星のスコール.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/10 - Miss．サンディ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/11 - crazy birthday.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/12 - 君はともだち.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/13 - シャンデリア・ワルツ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/01 - サイレンインザスパイ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/02 - シューゲイザースピーカー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/03 - 桜のあと (all quartets lead to the_).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/04 - 蒙昧termination.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/05 - 君が大人になってしまう前に.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/06 - メカトル時空探検隊.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/07 - 流れ星を撃ち落せ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/08 - 何かが変わりそう.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/09 - harmonized finale.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/10 - 天国と地獄.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/11 - instant EGOIST.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/12 - 黄昏インザスパイ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/01 - アンドロメダ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/02 - フルカラープログラム (D.A style).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/03 - 徹頭徹尾夜な夜なドライブ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/04 - ガリレオのショーケース (D.A style).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/05 - 23_25 (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/06 - 夕凪、アンサンブル.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/07 - kid, I like quartet (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/08 - 誰かが忘れているかもしれない僕らに大事な001のこと (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/09 - 天国と地獄.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/10 - 未完成デイジー (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/11 - シャンデリア・ワルツ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/12 - 場違いハミングバード (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/13 - 箱庭ロック・ショー (D.A style).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/14 - クローバー (D.A mix).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/15 - プログラムcontinued.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/16 - さわれない歌.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/01 - エアリアルエイリアン.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/02 - アトラクションがはじまる(they call it “NO.6”).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/03 - シュガーソングとビターステップ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/04 - マイノリティ・リポート(darling, I love you).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/05 - オトノバ中間試験.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/06 - マジョリティ・リポート(darling, I love you).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/07 - BUSTER DICE MISERY.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/08 - パンデミックサドンデス.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/09 - 8月、昼中の流れ星と飛行機雲.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/10 - フライデイノベルス.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/11 - mix juiceのいうとおり.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/12 - Cheap Cheap Endroll.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/01 - Track 1.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/02 - Track 2.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/03 - Track 3.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/04 - Track 4.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/05 - Track 5.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/06 - Track 6.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/07 - Track 7.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/08 - Track 8.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/09 - Track 9.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/10 - Track 10.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - LiveCD/11 - Track 11.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/01 - Own Civilization (nano-mile met).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/02 - Dizzy Trickster.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/03 - オーケストラを観にいこう.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/04 - fake town baby.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/05 - 静謐甘美秋暮抒情.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/06 - Silent Libre Mirage.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/07 - MIDNIGHT JUNGLE.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/08 - フィクションフリーククライシス.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/09 - Invisible Sensation.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/10 - 夢が覚めたら(at that river).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/11 - 10% roll, 10% romance.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/12 - 君の瞳に恋してない.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/01 - 3 minutes replay.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/02 - kid, I like quartet.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/03 - プロトラクト・カウントダウン.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/04 - きみのもとへ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/05 - 僕らのその先.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/06 - スカースデイル.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/07 - ワールドワイド・スーパーガール.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/08 - CAPACITY超える.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/09 - 場違いハミングバード.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/10 - カウンターアイデンティティ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/11 - 未完成デイジー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/12 - オリオンをなぞる.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - Populus Populus/13 - シュプレヒコール〜世界が終わる前に〜.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/01 - カラクリカルカレ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/02 - センチメンタルピリオド.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/03 - サンポサキマイライフ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/04 - デイライ協奏楽団.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/05 - 等身大の地球.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/06 - MR. アンディ -party style-.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/07 - WINDOW開ける.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/08 - マスターボリューム.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/09 - いつかの少年.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/10 - 箱庭ロック・ショー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/11 - クローバー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - cody beats
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - cody beats/01 - cody beats.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - cody beats/02 - ギャクテンサヨナラ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - cody beats/03 - 空の飛び方.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - fake town baby
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - fake town baby/01 - fake town baby.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - fake town baby/02 - リトルタイムストップ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - fake town baby/03 - きみはいい子.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/01 - harmonized finale.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/02 - ピストルギャラクシー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/03 - 三月物語.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/04 - I wanna believe、夜を行く.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/01 - unknown 1 - Track 1.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/02 - unknown 2 - Track 2.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/03 - unknown 3 - Track 3.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/04 - unknown 4 - Track 4.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/05 - unknown 5 - Track 5.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/06 - unknown 6 - Track 6.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/07 - unknown 7 - Track 7.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/08 - unknown 8 - Track 8.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/09 - unknown 9 - Track 9.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/10 - unknown 10 - Track 10.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/11 - unknown 11 - Track 11.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/12 - unknown 12 - Track 12.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/01 - Invisible Sensation.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/02 - スノウループ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/03 - サンタクロースは渋滞中.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/01 - オリオンをなぞる.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/02 - 僕は君になりたい.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/03 - UNOストーリー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/04 - over driver.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/05 - カラクリカルカレ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/06 - 23ji25.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/07 - ガリレオのショーケース.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/01 - シュガーソングとビターステップ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/02 - シグナルABC.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/03 - 東京シナリオ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/01 - センチメンタルピリオド.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/02 - 5分後のスターダスト.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/03 - ガリレオのショーケース.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - マスターボリューム
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - マスターボリューム/01 - マスターボリューム.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - マスターボリューム/02 - 一人思うは雨の中.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - マスターボリューム/03 - スノウリバース.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/01 - リニアブルーを聴きながら.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/02 - さわれない歌.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/03 - 三日月の夜の真ん中.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/04 - ラブソングは突然に 〜What is the name of that mystery？〜.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/01 - 桜のあと (all quartets lead to the_).flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/02 - ノンフィクションコンパス.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/03 - セク×カラ×シソンズール.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/01 - 春が来てぼくら.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/02 - ラディアルナイトチェイサー.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/03 - Micro Paradiso!.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/01 - 流星前夜.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/02 - フルカラープログラム.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/03 - 水と雨について.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/04 - 2月、白昼の流れ星と飛行機雲.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/05 - MR.アンディ.flac
+/home/pi/mount/Music/CD/UNISON/UNISON SQUARE GARDEN - 流星前夜/06 - 流星行路.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/01 - メッセンジャーフロム全世界.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/02 - コーヒーカップシンドローム.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/03 - チャイルドフッド・スーパーノヴァ.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/04 - cody beats.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/05 - 気まぐれ雑路.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/06 - キライ = キライ.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/07 - ライドオンタイム.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/08 - meet the world time.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/09 - 夜が揺れている.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/10 - アイラブニージュー.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/11 - スノウアンサー.flac
+/home/pi/mount/Music/CD/UNISON/UYIBFK~Z/12 - 23ji25.flac
+/home/pi/mount/Music/CD/ami_sakaguchi
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/02 - おはなし.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/03 - お別れをする時は.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/04 - 月には内緒で.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/05 - 厚底.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/06 - １４才の唄-Album Ver.-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/07 - 紺色の主張.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/08 - １５歳の詩.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/09 - さよならロマン.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/10 - ばかやろう.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/11 - 革命を.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/12 - 好-じょし-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/13 - 地球-まる-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - blue signs/14 - １６さいのうた-Album Ver.-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 空っぽの空が僕はきらいだ
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 空っぽの空が僕はきらいだ/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 空っぽの空が僕はきらいだ/02 - ばかやろう.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 空っぽの空が僕はきらいだ/03 - ガタゴト.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 好-じょし-
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 好-じょし-/01 - 好-じょし-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 好-じょし-/02 - 紺色の主張.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 好-じょし-/03 - １６さいのうた-Studio Live Ver.-.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー/01 - musicaian.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー/02 - 青春.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー/03 - 3341.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー/04 - fruits.flac
+/home/pi/mount/Music/CD/ami_sakaguchi/坂口有望 - 放課後ジャーニー/05 - いつか.flac
+/home/pi/mount/Music/Hireso
+/home/pi/mount/Music/Hireso/1-0003019287.flac
+/home/pi/mount/Music/Hireso/1-0003746962.flac
+/home/pi/mount/Music/Hireso/1-0004017705.flac
+/home/pi/mount/Music/Hireso/1-0004241237.flac
+/home/pi/mount/Music/Hireso/GODIEGO
+/home/pi/mount/Music/Hireso/GODIEGO/0008028068.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028069.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028070.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028071.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028072.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028073.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028074.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028075.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028076.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028077.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028078.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028079.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028080.flac
+/home/pi/mount/Music/Hireso/GODIEGO/0008028083.flac
+/home/pi/mount/Music/Hireso/Iruka
+/home/pi/mount/Music/Hireso/Iruka/record384
+/home/pi/mount/Music/Hireso/Iruka/record384/CultureClub_ColourByNumbers_1_100.flac
+/home/pi/mount/Music/Hireso/Iruka/record384/CultureClub_ColourByNumbers_2_100.flac
+/home/pi/mount/Music/Hireso/Iruka/record384/iruka_FollowMe_1_100.flac
+/home/pi/mount/Music/Hireso/Iruka/record384/iruka_FollowMe_2_100.flac
+/home/pi/mount/Music/Hireso/Iruka/record384/iruka_我が心の友へ_1_100.flac
+/home/pi/mount/Music/Hireso/Iruka/record384/iruka_我が心の友へ_2_100.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo
+/home/pi/mount/Music/Hireso/OkamotoMayo/1-0005119184.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/10-0005119201.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/11-0005119202.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/12-0005119203.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/13-0005119204.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/14-0005119205.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/15-0005119206.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/2-0005119193.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/3-0005119194.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/4-0005119195.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/5-0005119196.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/6-0005119197.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/7-0005119198.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/8-0005119199.flac
+/home/pi/mount/Music/Hireso/OkamotoMayo/9-0005119200.flac
+/home/pi/mount/Music/Hireso/TokiAsako
+/home/pi/mount/Music/Hireso/TokiAsako/1-0009767141.flac
+/home/pi/mount/Music/Hireso/TokiAsako/10-0009767165.flac
+/home/pi/mount/Music/Hireso/TokiAsako/11-0009767171.flac
+/home/pi/mount/Music/Hireso/TokiAsako/12-0009767172.flac
+/home/pi/mount/Music/Hireso/TokiAsako/13-0009767173.flac
+/home/pi/mount/Music/Hireso/TokiAsako/14-0009767174.flac
+/home/pi/mount/Music/Hireso/TokiAsako/15-0009767175.flac
+/home/pi/mount/Music/Hireso/TokiAsako/2-0009767142.flac
+/home/pi/mount/Music/Hireso/TokiAsako/3-0009767144.flac
+/home/pi/mount/Music/Hireso/TokiAsako/4-0009767145.flac
+/home/pi/mount/Music/Hireso/TokiAsako/5-0009767147.flac
+/home/pi/mount/Music/Hireso/TokiAsako/6-0009767149.flac
+/home/pi/mount/Music/Hireso/TokiAsako/7-0009767153.flac
+/home/pi/mount/Music/Hireso/TokiAsako/8-0009767160.flac
+/home/pi/mount/Music/Hireso/TokiAsako/9-0009767161.flac
+/home/pi/mount/Music/Hireso/YMO
+/home/pi/mount/Music/Hireso/YMO/0012649627.flac
+/home/pi/mount/Music/Hireso/YMO/0012649628.flac
+/home/pi/mount/Music/Hireso/YMO/0012649629.flac
+/home/pi/mount/Music/Hireso/YMO/0012649630.flac
+/home/pi/mount/Music/Hireso/YMO/0012649631.flac
+/home/pi/mount/Music/Hireso/YMO/0012649632.flac
+/home/pi/mount/Music/Hireso/YMO/0012649634.flac
+/home/pi/mount/Music/Hireso/丸本莉子
+/home/pi/mount/Music/Hireso/丸本莉子/1-0008244907.flac
+/home/pi/mount/Music/Hireso/丸本莉子/2-0008244908.flac
+/home/pi/mount/Music/Hireso/丸本莉子/3-0008244909.flac
+/home/pi/mount/Music/Hireso/丸本莉子/4-0008244910.flac
+/home/pi/mount/Music/Hireso/丸本莉子/5-0008244911.flac
+/home/pi/mount/Music/Hireso/丸本莉子/6-0008244912.flac
+/home/pi/mount/Music/Hireso/丸本莉子/7-0008244913.flac
+/home/pi/mount/Music/m4a
+/home/pi/mount/Music/m4a/CultureClubBest
+/home/pi/mount/Music/m4a/CultureClubBest/1-0000855124.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/10-0000855133.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/11-0000855134.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/12-0000855135.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/13-0000855136.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/14-0000855137.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/15-0000855138.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/16-0000855139.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/17-0000855140.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/2-0000855125.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/3-0000855126.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/4-0000855127.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/5-0000855128.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/6-0000855129.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/7-0000855130.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/8-0000855131.320.m4a
+/home/pi/mount/Music/m4a/CultureClubBest/9-0000855132.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234
+/home/pi/mount/Music/m4a/OeSenri1234/1-0002417405.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/10-0002417414.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/2-0002417406.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/3-0002417407.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/4-0002417408.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/5-0002417409.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/6-0002417410.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/7-0002417411.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/8-0002417412.320.m4a
+/home/pi/mount/Music/m4a/OeSenri1234/9-0002417413.320.m4a
+/home/pi/mount/Music/m4a/星野源
+/home/pi/mount/Music/m4a/星野源/0007889558.320.m4a
+/home/pi/mount/Music/m4a/星野源/0007889559.320.m4a
+/home/pi/mount/Music/m4a/星野源/0007889560.320.m4a
+/home/pi/mount/Music/m4a/星野源/0007889561.320.m4a
+/home/pi/mount/Music/mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/01 - Airplane '96.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/02 - Domino.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/03 - Snowflakes.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/04 - Chicken Curry.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/05 - Mini Cooper.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/06 - Holger & Marcus.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/07 - Cornflakes.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/08 - To Our Children's Children's Children.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - Sister Freedom Tapes/09 - Passing By.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/01 - ベイビィ・ポータブル・ロック (BABY MEXICAN ROCK VERSION).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/02 - アイスクリーム・メルティン・メロウ (MARIN MIX 2).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/03 - コンタクト (PERCOLATOR MIX).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/04 - good (SAMOAN ATTORNEY MIX).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/05 - トウキョウ・モナムール (DISCOTIQUE 96 MIX) (featuring 久米大作 at the organ).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - combinaison SPACIALE ep/06 - アイスクリーム・メルティン・メロウ (MARIN MIX 1).mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/01 - We Love Pizzicato Five.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/02 - スウィートソウルレヴュー.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/03 - 東京は夜の七時.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/04 - 我が名はグルーヴィー.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/05 - トゥイギートゥイギー.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/06 - 大人になりましょう.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/07 - CDJ.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/08 - 陽の当たる大通り.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/09 - ハッピー・サッド.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/10 - キャッチー.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/11 - サンキュー.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/12 - マジックカーペットライド.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/13 - We Love Pizzicato Five.mp3
+/home/pi/mount/Music/mp3/Pizzicato Five - pizzicato five TYO/14 - 万事快調.mp3
+/home/pi/mount/Video
+/home/pi/mount/Video/UNISON SQUARE GARDEN
+/home/pi/mount/Video/UNISON SQUARE GARDEN/UNISON SQUARE GARDEN「プログラムcontinued(15th style)」Music Video.mp4
+/home/pi/mount/Video/UNISON SQUARE GARDEN/USG_fun_time_724-1.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/USG_fun_time_724-2.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Coast.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation2.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation3.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation4.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg Que.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/Usg20180307Dvd.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.webm
+/home/pi/mount/Video/UNISON SQUARE GARDEN/オリオンをなぞる.m4v
+/home/pi/mount/Video/UNISON SQUARE GARDEN/シュガーソングとビターステップ.m4v
+/home/pi/mount/Video/YmckDVD.MP4
+/home/pi/mount/Video/宇宙の大きさを体感できる動画（Mitaka 版.mp4
+/home/pi/mount/Video/坂口有望
+/home/pi/mount/Video/坂口有望/(115) 坂口有望 「地球-まる-」 Music Video - YouTube.mp4
+/home/pi/mount/Video/坂口有望/(115) 坂口有望 『好-じょし-』Music Video - YouTube.webm
+/home/pi/mount/Video/坂口有望/坂口有望 bluesigns short.mp4
+/home/pi/mount/Video/坂口有望/坂口有望 放課後ジャーニー_Short.mp4
+/home/pi/mount/Video/飛行機
+/home/pi/mount/Video/飛行機/Blueimpulseshort.m4v
+/home/pi/mount/Video/飛行機/PlaneShort.m4v

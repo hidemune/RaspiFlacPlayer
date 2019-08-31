@@ -4,7 +4,7 @@ cd /home/pi/git/RaspiFlacPlayer/
 
 DEVICE=sda1
 
-mount /dev/${DEVICE} /home/pi/mount/
+mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
   echo No USB...
@@ -15,7 +15,7 @@ if [ $? -gt 0 ] ; then
   else
     # Diff!
     sudo cp -f work.txt bkup.txt
-    ./makeCSV.sh /home/pi/Videos/
+    ./makeCSV.sh /home/pi/Music/
     sudo ./getIP_Nightly.sh
   fi
 
