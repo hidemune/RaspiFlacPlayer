@@ -4,7 +4,8 @@ cd /home/pi/git/RaspiFlacPlayer/
 
 DEVICE=sda1
 
-mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/
+sudo umount /dev/${DEVICE} 
+sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
   echo No USB...
