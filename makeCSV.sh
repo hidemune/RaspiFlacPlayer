@@ -1,6 +1,11 @@
 #!/bin/bash
 
-musicpath=/home/pi/Music/
+if [ "$1" == "" ] ; then
+  musicpath=/home/pi/Music/
+else
+  musicpath=$1
+fi
+
 rm -f all.csv
 IFS='
 '
@@ -28,7 +33,7 @@ for f in $(find ${musicpath} -name '*\.*'); do
     album="-"
   fi
   if [ "${title}" == "" ]; then
-    title="-"
+    title=$f
   fi
 
   sortkey="${artist}${album}${num}====="

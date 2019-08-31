@@ -46,6 +46,14 @@ do
         #echo VOLUME : ${vol}
         ./volume.sh ${vol}
       fi
+      # STOP !
+      if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
+        #trap 'wait $PID' EXIT
+        echo STOP !!!
+        sudo kill -9 `pgrep play`
+        sudo kill -9 `pgrep vlc`
+        exit 0
+      fi
     done
   else
     mode=1 #RANDOM:1
