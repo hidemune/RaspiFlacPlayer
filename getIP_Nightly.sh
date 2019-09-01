@@ -34,8 +34,7 @@ else
 fi
 
 url="http://${ip2}:8080"
-echo 以下のアドレスに、LAN経由で繋いでください。なお、アドレスはクリップボードへコピーされます。
-echo Webブラウザが表示されたら、リンクをどれか選択してください。しばらく待つと、アドレスがペーストされます。
+echo 以下のアドレスに、LAN経由で繋いでください。
 echo
 echo ${url}
 
@@ -51,6 +50,7 @@ while [ 1 ]; do
     xte 'key N'
 
     sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
+    sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
     sudo shutdown now
     exit 0
   fi

@@ -1,12 +1,9 @@
 #!/bin/bash
+
+cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
+
 touch /var/lib/tomcat8/webapps/ROOT/stop
-while sudo killall play; do
-    sleep 1
-done
-while sudo killall cvlc; do
-    sleep 1
-done
-#killall random.sh
-#killall omxplayer.sh
-#killall loop.sh
+sudo kill -9 `pgrep play`
+sudo kill -9 `pgrep vlc`
+
 rm /var/lib/tomcat8/webapps/ROOT/que*
