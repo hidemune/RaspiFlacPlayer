@@ -12,7 +12,7 @@ IFS='
 for f in $(find ${musicpath} -type f); do
   fname="$f"
   base=$(basename "$f")
-  vol=70
+  vol=90
   vstr=$(echo ${f%.*} | rev 2>/dev/null | cut -c 1-4 | rev 2>/dev/null)
   if [[ ${vstr} =~ ^.*_([0-9]+)$ ]]; then
     vol=${BASH_REMATCH[1]}

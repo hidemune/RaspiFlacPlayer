@@ -1,4 +1,7 @@
 /home/pi/mount/DIAMOND.flac
+/home/pi/mount/Record192/DragonQuest2_100.flac
+/home/pi/mount/Record192/iruka_live_1_100.flac
+/home/pi/mount/Record192/iruka_live_2_100.flac
 /home/pi/mount/Record384/CultureClub_ColourByNumbers-1_80.flac
 /home/pi/mount/Record384/CultureClub_ColourByNumbers-2_80.flac
 /home/pi/mount/Record384/iruka_FollowMe-1_80.flac
@@ -6,6 +9,13 @@
 /home/pi/mount/Record384/iruka_我が心の友へ-1_80.flac
 /home/pi/mount/Record384/iruka_我が心の友へ-2_80.flac
 /home/pi/mount/YES♪.flac
+/home/pi/mount/丸本莉子/1-0008244907.flac
+/home/pi/mount/丸本莉子/2-0008244908.flac
+/home/pi/mount/丸本莉子/3-0008244909.flac
+/home/pi/mount/丸本莉子/4-0008244910.flac
+/home/pi/mount/丸本莉子/5-0008244911.flac
+/home/pi/mount/丸本莉子/6-0008244912.flac
+/home/pi/mount/丸本莉子/7-0008244913.flac
 /home/pi/mount/小沢健二 - LIFE/01 - 愛し愛されて生きるのさ.flac
 /home/pi/mount/小沢健二 - LIFE/02 - ラブリー.flac
 /home/pi/mount/小沢健二 - LIFE/03 - 東京恋愛専科・または恋は言ってみりゃボディー・ブロー.flac

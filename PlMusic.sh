@@ -13,11 +13,11 @@ echo ${volume} > /var/lib/tomcat8/webapps/ROOT/volume
 ext=$(echo $1 | rev | cut -c 1-4 | rev)
 if [ "${ext}" = "flac" ]; then
   rate=$(metaflac --show-sample-rate "$1")
-  if [ $rate -lt 50000 ]; then
-    echo "Upsampling : 192k 32bit"
-    AUDIODEV=hw:0 AUDIODRIVER=alsa play "$1" -r 192k -b 32 &
+  if [ $rate -lt 500000 ]; then
+    echo "Upsampling : 384k 32bit"
+    AUDIODRIVER=alsa play "$1" -r 384k -b 32 &
   else
-    AUDIODEV=hw:0 AUDIODRIVER=alsa play "$1" &
+    AUDIODRIVER=alsa play "$1" &
   fi
 else
   sudo -u pi cvlc --play-and-exit "$1" &

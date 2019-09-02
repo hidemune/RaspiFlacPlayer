@@ -39,6 +39,7 @@ echo
 echo ${url}
 
 qrencode -t ansi "${url}"
+aplay /home/pi/git/ready.wav
 
 #touch /var/lib/tomcat8/webapps/ROOT/start
 

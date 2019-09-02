@@ -60,7 +60,7 @@
 <button type="button" name="stop" value="1">
 <br>
 <br>
-<font size="5" color="#333399">&nbsp;&nbsp;動画再生終了&nbsp;&nbsp;</font>
+<font size="5" color="#333399">&nbsp;&nbsp;再生終了&nbsp;&nbsp;</font>
 </button>
 <%
   request.setCharacterEncoding("UTF-8");
