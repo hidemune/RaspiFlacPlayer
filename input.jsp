@@ -16,8 +16,9 @@
 <body>
 <script src="jquery.min.js"></script>
 <script>
-function submitForm(filename, vol) {
-    alert("予約 : " + filename);
+function submitForm(filename, vol, buttonid) {
+    $("button#" + buttonid).attr("disabled","true"); 
+    //alert("予約 : " + filename);
     //alert(vol);<%@ page contentType="text/html; charset=UTF-8" %>
     var http = new XMLHttpRequest();
     http.open("POST", "kettei.jsp", true);
@@ -242,6 +243,7 @@ out.println("<table border='1' >");
         out.println("<td>予約</td>");
         out.println("<td>Volume</td>");
         out.println("</tr>");
+int buttonid = 0;
 while((line = objBr.readLine()) != null){
     StringTokenizer objTkn=new StringTokenizer(line,"\n");
     while(objTkn.hasMoreTokens()){
@@ -263,7 +265,8 @@ while((line = objBr.readLine()) != null){
         out.println("<td>" + cols[1] + "</td>");
         out.println("<td>" + cols[2] + "</td>");
         out.println("<td>" + cols[3] + "</td>");
-        out.println("<td><button onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] +")' style='width:100px; height:4em; '>予約</button> </td>");
+        buttonid = buttonid + 1;
+        out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +")' style='width:100px; height:4em; '>予約</button> </td>");
         out.println("<td>" + cols[4] + "</td>");
         out.println("</tr>");
       }
