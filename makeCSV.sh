@@ -6,6 +6,8 @@ else
   musicpath=$1
 fi
 
+i=0
+
 rm -f all.csv
 IFS='
 '
@@ -39,6 +41,10 @@ for f in $(find ${musicpath} -type f); do
   sortkey="${artist}${album}${num}====="
 
   echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t${vol}" >> all.csv
+  i=$(echo $i+1 | bc)
+  if [ $(( $i % 10 )) -eq 0 ]; then
+    aplay block2.wav &
+  fi
 done
 
 sort all.csv > all_dayly.csv

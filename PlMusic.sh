@@ -14,8 +14,8 @@ ext=$(echo $1 | rev | cut -c 1-4 | rev)
 if [ "${ext}" = "flac" ]; then
   rate=$(metaflac --show-sample-rate "$1")
   if [ $rate -lt 500000 ]; then
-    echo "Upsampling : 384k 32bit"
-    AUDIODRIVER=alsa play "$1" -r 384k -b 32 &
+    echo "Upsampling : 384k 24bit"
+    AUDIODRIVER=alsa play "$1" -r 384k -b 24 &
   else
     AUDIODRIVER=alsa play "$1" &
   fi

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "開始します。" > url.txt
+open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
+aplay url.wav
+
 cd /home/pi/
 bash start-ap-management-wifi.sh
 sleep 10
@@ -43,6 +47,9 @@ aplay /home/pi/git/ready.wav
 
 #touch /var/lib/tomcat8/webapps/ROOT/start
 
+echo "${url}" | sed -e "s/\./ ドット /g" -e "s/\:/ コロン /g" -e "s/\//スラッシュ /g" > url.txt
+open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
+
 while [ 1 ]; do
   if [ -f /var/lib/tomcat8/webapps/ROOT/start ]; then
     xte 'keydown Alt_L' 
@@ -54,6 +61,8 @@ while [ 1 ]; do
     sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
     sudo shutdown now
     exit 0
+  else
+    aplay url.wav
   fi
   sleep 1
 done

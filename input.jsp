@@ -167,19 +167,19 @@ function submitForm(filename, vol, buttonid) {
 
 <div id="main"><!-- ########## ここから本文です ########## -->
 <div id="main2"><!-- 縁を 20px あけるためのものです -->
-<script src="jquery.min.js"></script>
+
 入力： <%=strTxt0%>：<%=strTxt1%>：<%=strTxt2%>：検索します<br>
 
       検索ワード？
       <input name="textfield0" type="text" class="textField" id="tField0">
-      <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0,this.value)">
+      <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0);" >
       <option value=""></option>
 <%
   file=new File(application.getRealPath("rireki"));
   objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
   line = "";
 while((line = objBr.readLine()) != null){
-      out.println("<option value=" + line + ">" + line + "</option>");
+      out.println("<option value='" + line + "'>" + line + "</option>");
 }
 objBr.close();
 %>
@@ -187,14 +187,14 @@ objBr.close();
 <br>
       検索ワード？
       <input name="textfield1" type="text" class="textField" id="tField1">
-      <select name="select1" class="selectBox" id="selBox1" onChange="getSelect(1,this.value)">
+      <select name="select1" class="selectBox" id="selBox1" onChange="getSelect(1)">
       <option value=""></option>
 <%
 file=new File(application.getRealPath("rireki"));
 objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 line = "";
 while((line = objBr.readLine()) != null){
-      out.println("<option value=" + line + ">" + line + "</option>");
+      out.println("<option value='" + line + "'>" + line + "</option>");
 }
 objBr.close();
 %>
@@ -202,14 +202,14 @@ objBr.close();
 <br>
       検索ワード？
       <input name="textfield2" type="text" class="textField" id="tField2">
-      <select name="select2" class="selectBox" id="selBox2" onChange="getSelect(2,this.value)">
+      <select name="select2" class="selectBox" id="selBox2" onChange="getSelect(2)">
       <option value=""></option>
 <%
 file=new File(application.getRealPath("rireki"));
 objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 line = "";
 while((line = objBr.readLine()) != null){
-      out.println("<option value=" + line + ">" + line + "</option>");
+      out.println("<option value='" + line + "'>" + line + "</option>");
 }
 objBr.close();
 %>
@@ -219,8 +219,9 @@ objBr.close();
       <input type="submit" value="検索" />
     </form>
 <script type="text/javascript">
-function getSelect(unit,text) {
-  document.getElementById("tField" + unit).value = text;    
+function getSelect(unit) {
+  //alert($("#selBox" + unit).val());
+  document.getElementById("tField" + unit).value = $("#selBox" + unit).val();    
 }
 
 function getText(unit) {
