@@ -561,6 +561,7 @@
 /home/pi/mount/ZUNTATA - GROOVE COASTER ORIGINAL SOUNDTRACK DISK3_BONUS/24 - COSIO from ZUNTATA - Extreme MGG★★★.flac
 /home/pi/mount/ZUNTATA - GROOVE COASTER ORIGINAL SOUNDTRACK DISK3_BONUS/25 - COSIO from ZUNTATA - COZMIC OPERATION.flac
 /home/pi/mount/ZUNTATA - GROOVE COASTER ORIGINAL SOUNDTRACK DISK3_BONUS/26 - Shohei Tsuchiya from ZUNTATA - World Collapse.flac
+/home/pi/mount/playerSetting
 /home/pi/mount/ゆうきまさみ原作　究極超人あ〜る - 究極超人あ〜る Vol.2/究極超人あ〜る Vol.201 - BOY'S SICK.flac
 /home/pi/mount/ゆうきまさみ原作　究極超人あ〜る - 究極超人あ〜る Vol.2/究極超人あ〜る Vol.202 - 「世界征服しましゃうの巻」.flac
 /home/pi/mount/ゆうきまさみ原作　究極超人あ〜る - 究極超人あ〜る Vol.2/究極超人あ〜る Vol.203 - 電気GOHAN.flac

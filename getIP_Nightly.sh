@@ -55,6 +55,9 @@ while [ 1 ]; do
 
     sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
     sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
+
+    sudo umount /home/pi/mount
+    sleep 3
     sudo shutdown now
     exit 0
   else
