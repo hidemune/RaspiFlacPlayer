@@ -42,7 +42,7 @@ for f in $(find ${musicpath} -type f); do
 
   echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t${vol}" >> all.csv
   i=$(echo $i+1 | bc)
-  if [ $(( $i % 10 )) -eq 0 ]; then
+  if [ $(( $i % 25 )) -eq 0 ]; then
     aplay block2.wav &
   fi
 done
