@@ -43,7 +43,7 @@ aplay /home/pi/git/ready.wav
 
 #touch /var/lib/tomcat8/webapps/ROOT/start
 
-echo "${url}" | sed -e "s/\./ ドット /g" -e "s/\:/ コロン /g" -e "s/\//スラッシュ /g" > url.txt
+echo "${url}" | sed -e "s/\./ ドット /g" -e "s/\:/ コロン /g" -e "s/\//スラッシュ /g" -e "s/8080/8丸8丸 /g" > url.txt
 open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
 
 while [ 1 ]; do
