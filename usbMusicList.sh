@@ -33,6 +33,7 @@ fi
 lsblk -n -o NAME,MOUNTPOINT
 
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bkup.txt
+sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki ./rireki
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
 find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type d -name playerSetting -prune -o -type f | sort > work.txt
 
@@ -46,5 +47,6 @@ else
   sudo cp -f *.csv $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/
   sudo cp -f bkup.txt $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt
   sudo ./getIP_Nightly.sh
+  sudo cp -f rireki $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki
   sudo umount $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
 fi
