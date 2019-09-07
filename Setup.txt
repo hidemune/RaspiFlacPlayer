@@ -33,6 +33,8 @@ sudo apt-get -y install thunar smbclient omxplayer alsa-oss alsa-utils alsamixer
 sudo apt-get -y install unclutter wicd handbrake
 sudo apt-get -y install xfce4 xfce4-goodies
 
+sudo apt-get install open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-jp-atr503-m001 -y
+
 sudo update-alternatives --config x-session-manager
 startxfce4 を選択した後、再起動。
 reboot

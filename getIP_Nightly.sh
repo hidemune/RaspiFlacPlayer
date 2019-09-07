@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "開始します。" > url.txt
-open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
-aplay url.wav
-
 cd /home/pi/
 bash start-ap-management-wifi.sh
 sleep 10
