@@ -11,10 +11,10 @@ i=0
 rm -f all.csv
 IFS='
 '
-for f in $(find ${musicpath} -type f); do
+for f in $(find ${musicpath} -type d -name playerSetting -prune -o -type f); do
   fname="$f"
   base=$(basename "$f")
-  vol=90
+  vol=80
   vstr=$(echo ${f%.*} | rev 2>/dev/null | cut -c 1-4 | rev 2>/dev/null)
   if [[ ${vstr} =~ ^.*_([0-9]+)$ ]]; then
     vol=${BASH_REMATCH[1]}
