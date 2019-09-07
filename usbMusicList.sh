@@ -5,11 +5,11 @@ cd /home/pi/git/RaspiFlacPlayer/
 DEVICE=sda1
 
 sudo umount /dev/${DEVICE} 
-sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/
+sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/ || sudo mount /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
   echo No USB...
-  find /home/pi/Videos/ -type f | sort > work.txt
+  find /home/pi/Music/ -type f | sort > work.txt
 
   if diff -q work.txt bkup.txt >/dev/null ; then
     sudo ./getIP_Nightly.sh
@@ -24,16 +24,21 @@ if [ $? -gt 0 ] ; then
   exit 0
 fi
 
+# USB動作モード
+
 lsblk -n -o NAME,MOUNTPOINT
 
-find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f | sort > work.txt
+sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bkup.txt
+find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type d -name playerSetting -prune -o -type f | sort > work.txt
 
 if diff -q work.txt bkup.txt >/dev/null ; then
   sudo ./getIP_Nightly.sh
 else
   # Diff!
   sudo cp -f work.txt bkup.txt
-  ./makeCSV.sh $(lsblk -n -o MOUNTPOINT /dev/sda1)
+  sudo mkdir $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/
+  sudo cp -f bkup.txt $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt
+  ./makeCSV.sh $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
   sudo ./getIP_Nightly.sh
-  sudo umount $(lsblk -n -o MOUNTPOINT /dev/sda1)
+  sudo umount $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
 fi
