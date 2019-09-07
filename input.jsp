@@ -23,7 +23,7 @@ function submitForm(filename, vol, buttonid) {
     var http = new XMLHttpRequest();
     http.open("POST", "kettei.jsp", true);
     http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-    var params = "filename=" + filename + "&volume=" + vol;
+    var params = "filename=" + encodeURIComponent(filename) + "&volume=" + vol;
     http.send(params);
     http.onload = function() {
         //alert(http.responseText);
