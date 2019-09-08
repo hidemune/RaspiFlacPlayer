@@ -15,7 +15,7 @@ for f in $(find ${musicpath} -type d -name playerSetting -prune -o -type f); do
   fname="$f"
   base=$(basename "$f")
   vol=80
-  vstr=$(echo ${f%.*} | rev 2>/dev/null | cut -c 1-4 | rev 2>/dev/null)
+  vstr=$(echo ${f%.*} | rev 2>/dev/null | cut -c 1-5 | rev 2>/dev/null)
   if [[ ${vstr} =~ ^.*\(([0-9]+)\)$ ]]; then
     vol=${BASH_REMATCH[1]}
   fi

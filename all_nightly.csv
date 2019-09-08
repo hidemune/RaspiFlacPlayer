@@ -17,14 +17,14 @@
 /home/pi/mount/Music/FLAC/岡本真夜 - Smile/岡本真夜 - Smile.flac.m3u	-	-	/home/pi/mount/Music/FLAC/岡本真夜 - Smile/岡本真夜 - Smile.flac.m3u	80
 /home/pi/mount/Music/FLAC/結月ゆかり - 月の響-ツキノヒビキ-/結月ゆかり - 月の響-ツキノヒビキ-.m3u	-	-	/home/pi/mount/Music/FLAC/結月ゆかり - 月の響-ツキノヒビキ-/結月ゆかり - 月の響-ツキノヒビキ-.m3u	80
 /home/pi/mount/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/初音ミク - 初音ミクベスト-impacts-.flac.m3u	-	-	/home/pi/mount/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/初音ミク - 初音ミクベスト-impacts-.flac.m3u	80
-/home/pi/mount/Music/iluka_live_1.flac	-	-	/home/pi/mount/Music/iluka_live_1.flac	1
-/home/pi/mount/Music/iluka_live_2.flac	-	-	/home/pi/mount/Music/iluka_live_2.flac	2
-/home/pi/mount/Music/iruka_followme_1.flac	-	-	/home/pi/mount/Music/iruka_followme_1.flac	1
-/home/pi/mount/Music/iruka_followme_2.flac	-	-	/home/pi/mount/Music/iruka_followme_2.flac	2
-/home/pi/mount/Music/iruka_tiisanasota_1.flac	-	-	/home/pi/mount/Music/iruka_tiisanasota_1.flac	1
-/home/pi/mount/Music/iruka_tiisanasota_2.flac	-	-	/home/pi/mount/Music/iruka_tiisanasota_2.flac	2
-/home/pi/mount/Music/iruka_wagakoko_1.flac	-	-	/home/pi/mount/Music/iruka_wagakoko_1.flac	1
-/home/pi/mount/Music/iruka_wagakoko_2.flac	-	-	/home/pi/mount/Music/iruka_wagakoko_2.flac	2
+/home/pi/mount/Music/iluka_live_1_(100).flac	-	-	/home/pi/mount/Music/iluka_live_1_(100).flac	100
+/home/pi/mount/Music/iluka_live_2_(100).flac	-	-	/home/pi/mount/Music/iluka_live_2_(100).flac	100
+/home/pi/mount/Music/iruka_followme_1_(100).flac	-	-	/home/pi/mount/Music/iruka_followme_1_(100).flac	100
+/home/pi/mount/Music/iruka_followme_2_(100).flac	-	-	/home/pi/mount/Music/iruka_followme_2_(100).flac	100
+/home/pi/mount/Music/iruka_tiisanasota_1_(100).flac	-	-	/home/pi/mount/Music/iruka_tiisanasota_1_(100).flac	100
+/home/pi/mount/Music/iruka_tiisanasota_2_(100).flac	-	-	/home/pi/mount/Music/iruka_tiisanasota_2_(100).flac	100
+/home/pi/mount/Music/iruka_wagakoko_1_(100).flac	-	-	/home/pi/mount/Music/iruka_wagakoko_1_(100).flac	100
+/home/pi/mount/Music/iruka_wagakoko_2_(100).flac	-	-	/home/pi/mount/Music/iruka_wagakoko_2_(100).flac	100
 /home/pi/mount/Music/taito-a.flac	-	-	/home/pi/mount/Music/taito-a.flac	80
 /home/pi/mount/Music/taito-b.flac	-	-	/home/pi/mount/Music/taito-b.flac	80
 /home/pi/mount/playerSetting	-	-	/home/pi/mount/playerSetting	80
@@ -975,7 +975,7 @@
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - JET CO./09 - 夜が揺れている.flac	UNISON SQUARE GARDEN	JET CO.	夜が揺れている	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - JET CO./10 - アイラブニージュー.flac	UNISON SQUARE GARDEN	JET CO.	アイラブニージュー	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - JET CO./11 - スノウアンサー.flac	UNISON SQUARE GARDEN	JET CO.	スノウアンサー	80
-/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - JET CO./12 - 23_25.flac	UNISON SQUARE GARDEN	JET CO.	23:25	25
+/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - JET CO./12 - 23_25.flac	UNISON SQUARE GARDEN	JET CO.	23:25	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/01 - Track 1.flac	UNISON SQUARE GARDEN	Live2018 disc1	/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/01 - Track 1.flac	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/02 - Track 2.flac	UNISON SQUARE GARDEN	Live2018 disc1	/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/02 - Track 2.flac	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/03 - Track 3.flac	UNISON SQUARE GARDEN	Live2018 disc1	/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/03 - Track 3.flac	80
@@ -1062,7 +1062,7 @@
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/03 - UNOストーリー.flac	UNISON SQUARE GARDEN	オリオンをなぞる	UNOストーリー	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/04 - over driver.flac	UNISON SQUARE GARDEN	オリオンをなぞる	over driver	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/05 - カラクリカルカレ.flac	UNISON SQUARE GARDEN	オリオンをなぞる	カラクリカルカレ	80
-/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/06 - 23_25.flac	UNISON SQUARE GARDEN	オリオンをなぞる	23:25	25
+/home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/06 - 23_25.flac	UNISON SQUARE GARDEN	オリオンをなぞる	23:25	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/07 - ガリレオのショーケース.flac	UNISON SQUARE GARDEN	オリオンをなぞる	ガリレオのショーケース	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/01 - シュガーソングとビターステップ.flac	UNISON SQUARE GARDEN	シュガーソングとビターステップ	シュガーソングとビターステップ	80
 /home/pi/mount/Music/FLAC/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/02 - シグナルABC.flac	UNISON SQUARE GARDEN	シュガーソングとビターステップ	シグナルABC	80
@@ -1203,8 +1203,8 @@
 /home/pi/mount/Music/FLAC/foxCapture/covermind/14-0004294479.flac	fox capture plan	COVERMIND	Don't Look Back in Anger	80
 /home/pi/mount/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/02 - ika - みくみくにしてあげる♪[してやんよ].flac	ika	初音ミクベスト-impacts-	みくみくにしてあげる♪[してやんよ]	80
 /home/pi/mount/Music/FLAC/Hireso/1-0003746962.flac	inspire:tion	まちびとの唄	まちびとの唄	80
-/home/pi/mount/Music/iruka_live_1.flac	iruka	live	live1	1
-/home/pi/mount/Music/iruka_live_2.flac	iruka	live	live2	2
+/home/pi/mount/Music/iruka_live_1_(100).flac	iruka	live	live1	100
+/home/pi/mount/Music/iruka_live_2_(100).flac	iruka	live	live2	100
 /home/pi/mount/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/08 - livetune - Last Night,Good Night.flac	livetune	初音ミクベスト-impacts-	Last Night,Good Night	80
 /home/pi/mount/Music/FLAC/Hireso/1-0003019287.flac	macaroom	you (mora ver.)	you (mora ver.)	80
 /home/pi/mount/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/13 - minato（流星P） - magnet.flac	minato（流星P）	初音ミクベスト-impacts-	magnet	80
@@ -1723,7 +1723,7 @@
 /home/pi/mount/Music/FLAC/川本真琴 - 川本真琴/07 - やきそばパン.flac	川本真琴	川本真琴	やきそばパン	80
 /home/pi/mount/Music/FLAC/川本真琴 - 川本真琴/08 - LOVE & LUNA.flac	川本真琴	川本真琴	LOVE & LUNA	80
 /home/pi/mount/Music/FLAC/川本真琴 - 川本真琴/09 - ひまわり.flac	川本真琴	川本真琴	ひまわり	80
-/home/pi/mount/Music/FLAC/川本真琴 - 川本真琴/10 - 1_2.flac	川本真琴	川本真琴	1/2	2
+/home/pi/mount/Music/FLAC/川本真琴 - 川本真琴/10 - 1_2.flac	川本真琴	川本真琴	1/2	80
 /home/pi/mount/Music/m4a/OeSenri1234/1-0002417405.320.m4a	大江 千里	1 2 3 4	GLORY DAYS	80
 /home/pi/mount/Music/m4a/OeSenri1234/2-0002417406.320.m4a	大江 千里	1 2 3 4	平凡	80
 /home/pi/mount/Music/m4a/OeSenri1234/3-0002417407.320.m4a	大江 千里	1 2 3 4	ROLLING BOYS IN TOWN	80
