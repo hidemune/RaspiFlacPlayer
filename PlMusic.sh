@@ -11,16 +11,16 @@ echo ${volume} > /var/lib/tomcat8/webapps/ROOT/volume
 #sudo kill -9 `pgrep play`
 #sudo kill -9 `pgrep vlc`
 
+amixer cset numid=3 1
+
 ext=$(echo $1 | rev | cut -c 1-4 | rev)
 if [ "${ext}" = "flac" ]; then
-  rate=$(metaflac --show-sample-rate "$1")
-  if [ $rate -lt 500000 ]; then
-    echo "Upsampling : 192k 24bit"
-    AUDIODRIVER=alsa play "$1" -r 192k -b 24 $effect &
-  else
-    AUDIODRIVER=alsa play "$1" $effect &
-  fi
+  play "$1" $effect &
 else
-  sudo -u pi cvlc --play-and-exit "$1" &
+  if [ "$effect" = "" ]; then
+    sudo -u pi cvlc --play-and-exit "$1" &
+  else
+    sudo -u pi cvlc --play-and-exit "$1" --audio-filter karaoke &
+  fi
 fi
 echo Player started.
