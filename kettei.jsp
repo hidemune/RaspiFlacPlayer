@@ -24,6 +24,7 @@
 
   String strTxt = request.getParameter("filename");
   String volume = request.getParameter("volume");
+  String effect = request.getParameter("effect");
   if (strTxt != null) {
     //strTxt = "'" + strTxt + "'";
     out.println("入力：" + strTxt + " / vol:" + volume + "：予約します");
@@ -43,6 +44,15 @@
       objBw.write("\n");
     } else {
       objBw.write("70");
+      objBw.write("\n");
+    }
+
+    if (effect != null) {
+      //write
+      objBw.write(effect);
+      objBw.write("\n");
+    } else {
+      objBw.write("");
       objBw.write("\n");
     }
 

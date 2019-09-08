@@ -46,21 +46,18 @@
   }
 %>
 
+<br>
+<br>
+
 <a href="kettei.jsp?cancel=1" target="_top">
-<button type="button" name="cancel" value="1">
-<br>
-<br>
-<font size="5" color="#333399">&nbsp;&nbsp;次の曲&nbsp;&nbsp;</font>
+<button type="button" name="cancel" value="1"><font size="5" color="#333399">&nbsp;&nbsp;次の曲&nbsp;&nbsp;</font>
 </button>
 
 <br>
 <br>
 
 <a href="volume.jsp?stop=1">
-<button type="button" name="stop" value="1">
-<br>
-<br>
-<font size="5" color="#333399">&nbsp;&nbsp;再生終了&nbsp;&nbsp;</font>
+<button type="button" name="stop" value="1"><font size="5" color="#333399">&nbsp;&nbsp;再生終了&nbsp;&nbsp;</font>
 </button>
 <%
   request.setCharacterEncoding("UTF-8");
