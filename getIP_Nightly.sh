@@ -38,8 +38,10 @@ echo 以下のアドレスに、LAN経由で繋いでください。
 echo
 echo ${url}
 
+sudo cp -f all.csv /var/lib/tomcat8/webapps/ROOT/
+
 qrencode -t ansi "${url}"
-aplay /home/pi/git/ready.wav
+aplay /home/pi/git/ready.wav 2>/dev/null
 
 #touch /var/lib/tomcat8/webapps/ROOT/start
 
@@ -61,7 +63,7 @@ while [ 1 ]; do
     sudo shutdown now
     exit 0
   else
-    aplay url.wav
+    aplay url.wav 2>/dev/null
   fi
   sleep 1
 done
