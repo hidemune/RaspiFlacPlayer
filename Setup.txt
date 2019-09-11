@@ -28,7 +28,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y install git
-sudo apt-get -y install openjdk-8-jdk apache2 tomcat8 --fix-missing
+sudo apt-get -y install openjdk-8-jdk nginx tomcat8 --fix-missing
 sudo apt-get -y install thunar smbclient omxplayer alsa-oss alsa-utils alsamixergui 
 sudo apt-get -y install unclutter wicd handbrake
 sudo apt-get -y install xfce4 xfce4-goodies

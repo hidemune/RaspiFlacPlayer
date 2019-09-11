@@ -38,14 +38,14 @@
     objBw.write(strTxt);
     objBw.write("\n");
 
-    if (volume != null) {
-      //write
-      objBw.write(volume);
-      objBw.write("\n");
-    } else {
-      objBw.write("70");
-      objBw.write("\n");
-    }
+  //  if (volume != null) {
+  //    //write
+  //    objBw.write(volume);
+  //    objBw.write("\n");
+  //  } else {
+  //    objBw.write("70");
+  //    objBw.write("\n");
+  //  }
 
     if (effect != null) {
       //write

@@ -11,7 +11,7 @@
  <meta http-equiv="Expires" content="0">
  <meta http-equiv="content-style-type" content="text/css">
  <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <title>動画再生</title>
+    <title>再生</title>
 </head>
 <body>
 <script src="jquery.min.js"></script>
@@ -245,7 +245,7 @@ out.println("<table border='1' >");
         out.println("<td>アーティスト</td>");
         out.println("<td>アルバム</td>");
         out.println("<td>タイトル</td>");
-        out.println("<td>予約</td>");
+        out.println("<td>Play</td>");
         out.println("<td>Vocal Off</td>");
         out.println("<td>歌詞</td>");
         //out.println("<td>Volume</td>");
@@ -273,7 +273,7 @@ while((line = objBr.readLine()) != null){
         out.println("<td>" + cols[2] + "</td>");
         out.println("<td>" + cols[3] + "</td>");
         buttonid = buttonid + 1;
-        out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"\")' style='width:100px; height:4em; '>予約</button> </td>");
+        out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"\")' style='width:100px; height:4em; '>Play</button> </td>");
         buttonid = buttonid + 1;
         out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
 
