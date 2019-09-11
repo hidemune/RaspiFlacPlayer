@@ -248,7 +248,7 @@ out.println("<table border='1' >");
         out.println("<td>予約</td>");
         out.println("<td>Vocal Off</td>");
         out.println("<td>歌詞</td>");
-        out.println("<td>Volume</td>");
+        //out.println("<td>Volume</td>");
         out.println("</tr>");
 int buttonid = 0;
 while((line = objBr.readLine()) != null){
@@ -278,7 +278,7 @@ while((line = objBr.readLine()) != null){
         out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
 
         out.println("<td><button onClick='getPoem(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞検索</button> </td>");
-        out.println("<td>" + cols[4] + "</td>");
+        //out.println("<td>" + cols[4] + "</td>");
         out.println("</tr>");
       }
     }
