@@ -1,10 +1,12 @@
 #!/bin/bash
 
+cd /home/pi/git/RaspiFlacPlayer/
+./volume.sh 100
+
 echo "準備を開始します。" > url.txt
 open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
 aplay url.wav
 
-cd /home/pi/git/RaspiFlacPlayer/
 
 DEVICE=sda1
 

@@ -10,8 +10,8 @@ rm -f /var/lib/tomcat8/webapps/ROOT/que*
 sudo ./jyunbi.sh
 mode=0 #SYOKICHI:0
 
-volume=70
-./volume.sh 70
+volume=80
+./volume.sh 80
 export preNum=-1
 effect=
 
