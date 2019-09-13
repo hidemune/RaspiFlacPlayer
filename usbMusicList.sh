@@ -39,7 +39,7 @@ sudo cp -f ./rireki $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rirek
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bkup.txt
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki ./rireki
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
-find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "playerSetting" | sort > work.txt
+find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "*/playerSetting" | sort > work.txt
 
 if diff -q work.txt bkup.txt >/dev/null ; then
   # Same !!!

@@ -1929,4 +1929,4 @@
 /home/pi/mount/Music/m4a/星野源/0007889561.320.m4a
 /home/pi/mount/Music/taito-a.flac
 /home/pi/mount/Music/taito-b.flac
-/home/pi/mount/playerSetting
+/home/pi/mount/playerSetting/rireki_bkup
