@@ -43,7 +43,7 @@ for f in $(find ${musicpath} -type d -name playerSetting -prune -o -type f); do
   echo -e "${sortkey}${fname}\t${artist}\t${album}\t${title}\t${vol}" >> all.csv
   i=$(echo $i+1 | bc)
   if [ $(( $i % 25 )) -eq 0 ]; then
-    aplay block2.wav &
+    aplay decision3.wav &
   fi
 done
 
