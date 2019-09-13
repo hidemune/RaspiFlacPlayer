@@ -35,6 +35,7 @@ fi
 lsblk -n -o NAME,MOUNTPOINT
 
 sudo mkdir $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/
+sudo cp -f ./rireki $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki_bkup
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bkup.txt
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki ./rireki
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
