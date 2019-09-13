@@ -256,13 +256,13 @@ while((line = objBr.readLine()) != null){
     while(objTkn.hasMoreTokens()){
       String csvLine = objTkn.nextToken();
       boolean flg = true;
-      if (csvLine.indexOf(strTxt0) < 0) {
+      if (csvLine.toLowerCase().indexOf(strTxt0.toLowerCase()) < 0) {
         flg = false;
       }
-      if (csvLine.indexOf(strTxt1) < 0) {
+      if (csvLine.toLowerCase().indexOf(strTxt1.toLowerCase()) < 0) {
         flg = false;
       }
-      if (csvLine.indexOf(strTxt2) < 0) {
+      if (csvLine.toLowerCase().indexOf(strTxt2.toLowerCase()) < 0) {
         flg = false;
       }
       if (flg) {
