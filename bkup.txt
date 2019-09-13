@@ -20,3 +20,64 @@
 /home/pi/mount/Movie/坂口有望 「地球-まる-」 Music Video - YouTube.mp4
 /home/pi/mount/Movie/坂口有望 『好-じょし-』Music Video - YouTube.mp4
 /home/pi/mount/Movie/坂口有望 放課後ジャーニー_Short.m4v
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/01 - 40mP - 少年と魔法のロボット.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/02 - 40mP - Melody in the sky.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/03 - 40mP - Step to you.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/04 - 40mP - 巨大少女.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/05 - 40mP - ジェンガ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/06 - 40mP - トリノコシティ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/07 - 40mP - 妄想スケッチ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/08 - 40mP - キリトリセン.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/09 - 40mP - 夢地図.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/10 - 40mP - からくりピエロ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/11 - 40mP - シリョクケンサ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/12 - 40mP - ドレミファロンド.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/13 - 40mP - 春に一番近い街.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/14 - 40mP - 東京の真ン中で寝転ぶ.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/15 - 40mP - 千年橋と影法師.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/16 - 40mP - コトバのうた.flac
+/home/pi/mount/Music/40mP - 少年と魔法のロボット/40mP - 少年と魔法のロボット.flac.m3u
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/01 - Bunpyうるし - 紲月歌.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/02 - samfree - ユカユカ☆ヘヴンリーナイト.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/03 - osu - 屈服と怠惰.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/04 - Yono - クロウガール.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/05 - きの（嘆きのP） - キライミライ.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/06 - 36g - 誰かの歌で僕が死ぬ.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/07 - くらげP - サヨナラチェーンソー.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/08 - azuma - 夢魅鳥.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/09 - Dios_シグナルP - 撲滅なのです！.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/10 - LIQ - SWALLOWTAIL ON THE SPIDER'z NET.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/11 - 斜め上P - 月魄-TSUKISHIRO-.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/12 - Nia - ハルアイ.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/13 - かごめP - Tiny PaRadisE.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/14 - Yono - 世界最後の飛行士.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/15 - INFINITY∞ - 観覧車.flac
+/home/pi/mount/Music/結月ゆかり - 月の響-ツキノヒビキ-/結月ゆかり - 月の響-ツキノヒビキ-.m3u
+/home/pi/mount/Music/坂口有望 - blue signs/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/mount/Music/坂口有望 - blue signs/02 - おはなし.flac
+/home/pi/mount/Music/坂口有望 - blue signs/03 - お別れをする時は.flac
+/home/pi/mount/Music/坂口有望 - blue signs/04 - 月には内緒で.flac
+/home/pi/mount/Music/坂口有望 - blue signs/05 - 厚底.flac
+/home/pi/mount/Music/坂口有望 - blue signs/06 - １４才の唄-Album Ver.-.flac
+/home/pi/mount/Music/坂口有望 - blue signs/07 - 紺色の主張.flac
+/home/pi/mount/Music/坂口有望 - blue signs/08 - １５歳の詩.flac
+/home/pi/mount/Music/坂口有望 - blue signs/09 - さよならロマン.flac
+/home/pi/mount/Music/坂口有望 - blue signs/10 - ばかやろう.flac
+/home/pi/mount/Music/坂口有望 - blue signs/11 - 革命を.flac
+/home/pi/mount/Music/坂口有望 - blue signs/12 - 好-じょし-.flac
+/home/pi/mount/Music/坂口有望 - blue signs/13 - 地球-まる-.flac
+/home/pi/mount/Music/坂口有望 - blue signs/14 - １６さいのうた-Album Ver.-.flac
+/home/pi/mount/Music/坂口有望 - 放課後ジャーニー/01 - musicaian.flac
+/home/pi/mount/Music/坂口有望 - 放課後ジャーニー/02 - 青春.flac
+/home/pi/mount/Music/坂口有望 - 放課後ジャーニー/03 - 3341.flac
+/home/pi/mount/Music/坂口有望 - 放課後ジャーニー/04 - fruits.flac
+/home/pi/mount/Music/坂口有望 - 放課後ジャーニー/05 - いつか.flac
+/home/pi/mount/Music/小沢健二 - 刹那/01 - 小沢健二 - 流星ビバップ.flac
+/home/pi/mount/Music/小沢健二 - 刹那/02 - 小沢健二 - 痛快ウキウキ通り.flac
+/home/pi/mount/Music/小沢健二 - 刹那/03 - 小沢健二 - さよならなんて云えないよ (美しさ).flac
+/home/pi/mount/Music/小沢健二 - 刹那/04 - 小沢健二 - 夢が夢なら.flac
+/home/pi/mount/Music/小沢健二 - 刹那/05 - 小沢健二 - 強い気持ち・強い愛.flac
+/home/pi/mount/Music/小沢健二 - 刹那/06 - 小沢健二 - それはちょっと.flac
+/home/pi/mount/Music/小沢健二 - 刹那/07 - 小沢健二 - 夜と日時計.flac
+/home/pi/mount/Music/小沢健二 - 刹那/08 - 小沢健二 - いちょう並木のセレナーデ.flac
+/home/pi/mount/Music/小沢健二 - 刹那/09 - 小沢健二 - 流星ビバップ.flac

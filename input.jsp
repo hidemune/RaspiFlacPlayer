@@ -30,7 +30,7 @@ function submitForm(filename, vol, buttonid, oops) {
     }
 }
 function getPoem(artist, song) {
-  var win = window.open("http://search.yahoo.co.jp?p=" + encodeURIComponent("歌詞 " + artist + " " + song), '_blank');
+  var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
   win.focus();
 }
 </script>
