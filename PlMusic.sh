@@ -8,19 +8,20 @@ echo Play : 「"$1"」vol: ${volume}
 #./volume.sh ${volume}
 #omxplayer -o alsa "$1" &
 
-#sudo kill -9 `pgrep play`
 #sudo kill -9 `pgrep vlc`
+
+#rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
 
 amixer cset numid=3 1
 
-ext=$(echo $1 | rev | cut -c 1-4 | rev)
-if [ "${ext}" = "flac" ]; then
-  play "$1" $effect &
-else
+#ext=$(echo $1 | rev | cut -c 1-4 | rev)
+#if [ "${ext}" = "flac" ]; then
+#  play "$1" $effect &
+#else
   if [ "$effect" = "" ]; then
     sudo -u pi cvlc --play-and-exit "$1" &
   else
     sudo -u pi cvlc --play-and-exit "$1" --audio-filter karaoke &
   fi
-fi
+#fi
 echo Player started.

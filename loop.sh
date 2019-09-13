@@ -15,6 +15,8 @@ volume=80
 export preNum=-1
 effect=
 
+rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
+
 while true :
 do
   # QUE(Yoyaku) !
@@ -37,7 +39,7 @@ do
         rm /var/lib/tomcat8/webapps/ROOT/cancel
         #trap 'wait $PID' EXIT
         echo CANCEL !!
-        sudo kill -9 `pgrep play`
+        
         sudo kill -9 `pgrep vlc`
         break
       fi
@@ -51,7 +53,7 @@ do
       if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
         #trap 'wait $PID' EXIT
         echo STOP !!!
-        sudo kill -9 `pgrep play`
+        
         sudo kill -9 `pgrep vlc`
         exit 0
       fi
@@ -77,7 +79,7 @@ do
     if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
       #trap 'wait $PID' EXIT
       echo STOP !!!
-      sudo kill -9 `pgrep play`
+      
       sudo kill -9 `pgrep vlc`
       exit 0
     fi
@@ -86,7 +88,7 @@ do
       rm /var/lib/tomcat8/webapps/ROOT/cancel
       #trap 'wait $PID' EXIT
       echo CANCEL !!
-      sudo kill -9 `pgrep play`
+      
       sudo kill -9 `pgrep vlc`
       break
     fi
@@ -101,7 +103,7 @@ do
       lslst=(`ls /var/lib/tomcat8/webapps/ROOT/que* 2>/dev/null`)
       if [ ${#lslst[*]} -gt 0 ] ; then
         echo que-CANCEL !!
-        sudo kill -9 `pgrep play`
+        
         sudo kill -9 `pgrep vlc`
         break
       fi
