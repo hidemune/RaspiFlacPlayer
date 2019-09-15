@@ -12,7 +12,7 @@ echo Play : 「"$1"」vol: ${volume}
 
 #rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
 
-amixer cset numid=3 1
+#amixer cset numid=3 1
 
 #ext=$(echo $1 | rev | cut -c 1-4 | rev)
 #if [ "${ext}" = "flac" ]; then
