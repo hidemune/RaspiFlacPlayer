@@ -27,7 +27,7 @@ do
     # QUE
     mode=2 #QUE:2
     qfiles=(`ls /var/lib/tomcat8/webapps/ROOT/que* -1 2>/dev/null`)
-    ./PlMusic.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`" "`sed -n 3P ${qfiles[0]}`"
+    ./PlMusicHireso.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`" "`sed -n 3P ${qfiles[0]}`"
     sleep 3
     #echo Kettei : 「"`cat ${qfiles[0]}`"」 
     rm -f ${qfiles[0]}
@@ -39,7 +39,7 @@ do
         rm /var/lib/tomcat8/webapps/ROOT/cancel
         #trap 'wait $PID' EXIT
         echo CANCEL !!
-        
+        sudo killall play
         sudo kill -9 `pgrep vlc`
         break
       fi
@@ -53,7 +53,7 @@ do
       if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
         #trap 'wait $PID' EXIT
         echo STOP !!!
-        
+        sudo killall play
         sudo kill -9 `pgrep vlc`
         exit 0
       fi
@@ -79,7 +79,7 @@ do
     if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
       #trap 'wait $PID' EXIT
       echo STOP !!!
-      
+      sudo killall play
       sudo kill -9 `pgrep vlc`
       exit 0
     fi
@@ -88,7 +88,7 @@ do
       rm /var/lib/tomcat8/webapps/ROOT/cancel
       #trap 'wait $PID' EXIT
       echo CANCEL !!
-      
+      sudo killall play
       sudo kill -9 `pgrep vlc`
       break
     fi
@@ -103,7 +103,7 @@ do
       lslst=(`ls /var/lib/tomcat8/webapps/ROOT/que* 2>/dev/null`)
       if [ ${#lslst[*]} -gt 0 ] ; then
         echo que-CANCEL !!
-        
+        sudo killall play
         sudo kill -9 `pgrep vlc`
         break
       fi
