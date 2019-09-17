@@ -16,12 +16,7 @@ cd /home/pi/git/RaspiFlacPlayer/
 
 #ip2=`hostname -I | awk '{print $1}'`
 
-if [[ "${ip2}" != 192* ]]; then
-  echo ネットワークアドレスを取得できません。
-  echo WiFiまたはLANケーブルをご確認ください。
-  echo "LANケーブルが接続されていないため、ネットワーク機能は利用できません。" > url.txt
-  open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
-else
+if [[ "${ip2}" == 192* ]]; then
   #url="http://${ip2}:8080"
   url="http://${ip2}"
   echo 以下のアドレスに、LAN経由で繋いでください。
@@ -31,12 +26,18 @@ else
   sudo cp -f all.csv /var/lib/tomcat8/webapps/ROOT/
 
   qrencode -t ansi "${url}"
-  aplay /home/pi/git/ready.wav 2>/dev/null
+  aplay -D pluhw:1 /home/pi/git/ready.wav 2>/dev/null
 
   #touch /var/lib/tomcat8/webapps/ROOT/start
-
+else
   echo "以下のアドレスに、LAN経由で繋いでください。 ${url}" | sed -e "s/\./ ドット /g" -e "s/http\:\/\// /g" -e "s/\//スラッシュ /g" -e "s/:8080//g" > url.txt
   open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
+
+  echo ネットワークアドレスを取得できません。
+  echo WiFiまたはLANケーブルをご確認ください。
+  echo "LANケーブルが接続されていないため、ネットワーク機能は利用できません。" > url.txt
+  open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
+
 fi
 
 while [ 1 ]; do
@@ -54,7 +55,7 @@ while [ 1 ]; do
     sudo shutdown now
     exit 0
   else
-    aplay url.wav 2>/dev/null
+    aplay -D pluhw:1 url.wav 2>/dev/null
     touch /var/lib/tomcat8/webapps/ROOT/start
   fi
   sleep 1

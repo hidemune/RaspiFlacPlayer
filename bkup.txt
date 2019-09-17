@@ -1,34 +1,347 @@
-/home/pi/Music/Hireso/Record192/AsCloseAsPossible_a.flac
-/home/pi/Music/Hireso/Record192/AsCloseAsPossible_b.flac
-/home/pi/Music/Hireso/Record192/BestYearOfMyLife_a.flac
-/home/pi/Music/Hireso/Record192/BestYearOfMyLife_b.flac
-/home/pi/Music/Hireso/Record192/K_Oda_a2.flac
-/home/pi/Music/Hireso/Record192/K_Oda_b.flac
-/home/pi/Music/Hireso/Record192/NiagaraTriangleVol2_a.flac
-/home/pi/Music/Hireso/Record192/NiagaraTriangleVol2_b.flac
-/home/pi/Music/Hireso/Record192/OffCourse_BackStreetsOfTokyo_a.flac
-/home/pi/Music/Hireso/Record192/OffCourse_BackStreetsOfTokyo_b.flac
-/home/pi/Music/Hireso/Record192/OffCourse_Selection1973-78_a.flac
-/home/pi/Music/Hireso/Record192/OffCourse_Selection1973-78_b.flac
-/home/pi/Music/Hireso/Record192/OffCourse_Selection1978-81_a.flac
-/home/pi/Music/Hireso/Record192/OffCourse_Selection1978-81_b.flac
-/home/pi/Music/Hireso/Record192/Over_a.flac
-/home/pi/Music/Hireso/Record192/Over_b.flac
-/home/pi/Music/Hireso/Record192/Ozaki_kaikisen_a.flac
-/home/pi/Music/Hireso/Record192/Ozaki_kaikisen_b.flac
-/home/pi/Music/Hireso/Record192/RichardClayderman_a.flac
-/home/pi/Music/Hireso/Record192/RichardClayderman_b.flac
-/home/pi/Music/Hireso/Record192/alfee_PageOne_a.flac
-/home/pi/Music/Hireso/Record192/alfee_PageOne_b.flac
-/home/pi/Music/Hireso/Record192/alfee_law_a.flac
-/home/pi/Music/Hireso/Record192/alfee_law_b.flac
-/home/pi/Music/Hireso/Record192/iruka_live_1.flac
-/home/pi/Music/Hireso/Record192/iruka_live_2.flac
-/home/pi/Music/Hireso/Record192/iruka_tiisanasota_1.flac
-/home/pi/Music/Hireso/Record192/iruka_tiisanasota_2.flac
-/home/pi/Music/Hireso/Record384/CultureClub_ColourByNumbers_1.flac
-/home/pi/Music/Hireso/Record384/CultureClub_ColourByNumbers_2.flac
-/home/pi/Music/Hireso/Record384/iruka_FollowMe_1.flac
-/home/pi/Music/Hireso/Record384/iruka_FollowMe_2.flac
-/home/pi/Music/Hireso/Record384/iruka_我が心の友へ_1.flac
-/home/pi/Music/Hireso/Record384/iruka_我が心の友へ_2.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/01 - OSTER project feat初音ミク - Intro.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/02 - OSTER project feat初音ミク - 恋スルVOC＠LOID.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/03 - OSTER project feat初音ミク - フリートーク#1.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/04 - OSTER project feat初音ミク - フキゲンワルツ.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/05 - OSTER project feat初音ミク - おやすみのうた.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/06 - OSTER project feat初音ミク - フリートーク#2.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/07 - OSTER project feat初音ミク - Dreaming Leaf ユメミルコトノハ.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/08 - OSTER project feat初音ミク - 片想イVOC@LOID.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/09 - OSTER project feat初音ミク - つきうさぎ.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/10 - OSTER project feat初音ミク - フリートーク#3.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/11 - OSTER project feat初音ミク - RING×RING×RING.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/12 - OSTER project feat初音ミク - ちょこまじ☆ろんぐ.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/13 - OSTER project feat初音ミク - デジネコポップヌコミックス.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/14 - OSTER project feat初音ミク - フリートーク#4.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/15 - OSTER project feat初音ミク - 8月の花嫁.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/16 - OSTER project feat初音ミク - ミラクルペイント.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/17 - OSTER project feat初音ミク - フリートーク#5.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/18 - OSTER project feat初音ミク - Extra恋スル大合唱.flac
+/home/pi/Music/FLAC/OSTER project feat初音ミク - みくのかんづめ/OSTER project feat初音ミク - みくのかんづめ.flac.m3u
+/home/pi/Music/FLAC/UNISON/0010887898.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/01 - UNISON SQUARE GARDEN - アナザーワールド.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/02 - UNISON SQUARE GARDEN - センチメンタルピリオド.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/03 - UNISON SQUARE GARDEN - さよなら第九惑星.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/04 - UNISON SQUARE GARDEN - サーチライト.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/05 - UNISON SQUARE GARDEN - ライトフライト.flac
+/home/pi/Music/FLAC/UNISON/UNISON - 新世界ノート/06 - UNISON SQUARE GARDEN - 箱庭ロック・ショー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/01 - 10% roll, 10% romance.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/02 - RUNNERS HIGH REPRISE.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 10% roll, 10% romance/03 - flat song.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/01 - to the CIDER ROAD.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/02 - ため息 shooting the MOON.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/03 - リニアブルーを聴きながら (「劇場版 TIGER&BUNNY The Beginning」主題歌).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/04 - like coffeeのおまじない.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/05 - お人好しカメレオン.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/06 - 光のどけき春の日に.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/07 - クロスハート1号線 (advantage in a long time).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/08 - セレナーデが止まらない.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/09 - 流星のスコール.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/10 - Miss．サンディ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/11 - crazy birthday.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/12 - 君はともだち.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - CIDER ROAD/13 - シャンデリア・ワルツ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/01 - サイレンインザスパイ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/02 - シューゲイザースピーカー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/03 - 桜のあと (all quartets lead to the_).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/04 - 蒙昧termination.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/05 - 君が大人になってしまう前に.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/06 - メカトル時空探検隊.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/07 - 流れ星を撃ち落せ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/08 - 何かが変わりそう.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/09 - harmonized finale.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/10 - 天国と地獄.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/11 - instant EGOIST.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/12 - 黄昏インザスパイ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/01 - アンドロメダ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/02 - フルカラープログラム (D.A style).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/03 - 徹頭徹尾夜な夜なドライブ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/04 - ガリレオのショーケース (D.A style).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/05 - 23_25 (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/06 - 夕凪、アンサンブル.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/07 - kid, I like quartet (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/08 - 誰かが忘れているかもしれない僕らに大事な001のこと (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/09 - 天国と地獄.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/10 - 未完成デイジー (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/11 - シャンデリア・ワルツ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/12 - 場違いハミングバード (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/13 - 箱庭ロック・ショー (D.A style).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/14 - クローバー (D.A mix).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/15 - プログラムcontinued.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - DUGOUT ACCIDENT/16 - さわれない歌.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/01 - エアリアルエイリアン.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/02 - アトラクションがはじまる(they call it “NO.6”).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/03 - シュガーソングとビターステップ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/04 - マイノリティ・リポート(darling, I love you).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/05 - オトノバ中間試験.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/06 - マジョリティ・リポート(darling, I love you).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/07 - BUSTER DICE MISERY.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/08 - パンデミックサドンデス.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/09 - 8月、昼中の流れ星と飛行機雲.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/10 - フライデイノベルス.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/11 - mix juiceのいうとおり.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Dr.Izzy/12 - Cheap Cheap Endroll.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/01 - Track 1.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/02 - Track 2.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/03 - Track 3.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/04 - Track 4.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/05 - Track 5.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/06 - Track 6.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/07 - Track 7.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/08 - Track 8.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/09 - Track 9.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/10 - Track 10.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - LiveCD/11 - Track 11.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/01 - Own Civilization (nano-mile met).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/02 - Dizzy Trickster.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/03 - オーケストラを観にいこう.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/04 - fake town baby.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/05 - 静謐甘美秋暮抒情.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/06 - Silent Libre Mirage.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/07 - MIDNIGHT JUNGLE.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/08 - フィクションフリーククライシス.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/09 - Invisible Sensation.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/10 - 夢が覚めたら(at that river).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/11 - 10% roll, 10% romance.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - MODE MOOD MODE/12 - 君の瞳に恋してない.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/01 - 3 minutes replay.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/02 - kid, I like quartet.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/03 - プロトラクト・カウントダウン.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/04 - きみのもとへ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/05 - 僕らのその先.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/06 - スカースデイル.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/07 - ワールドワイド・スーパーガール.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/08 - CAPACITY超える.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/09 - 場違いハミングバード.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/10 - カウンターアイデンティティ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/11 - 未完成デイジー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/12 - オリオンをなぞる.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - Populus Populus/13 - シュプレヒコール〜世界が終わる前に〜.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/01 - カラクリカルカレ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/02 - センチメンタルピリオド.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/03 - サンポサキマイライフ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/04 - デイライ協奏楽団.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/05 - 等身大の地球.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/06 - MR. アンディ -party style-.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/07 - WINDOW開ける.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/08 - マスターボリューム.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/09 - いつかの少年.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/10 - 箱庭ロック・ショー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/11 - クローバー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - cody beats/01 - cody beats.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - cody beats/02 - ギャクテンサヨナラ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - cody beats/03 - 空の飛び方.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - fake town baby/01 - fake town baby.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - fake town baby/02 - リトルタイムストップ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - fake town baby/03 - きみはいい子.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/01 - harmonized finale.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/02 - ピストルギャラクシー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/03 - 三月物語.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - harmonized finale (disc 1)/04 - I wanna believe、夜を行く.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/01 - unknown 1 - Track 1.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/02 - unknown 2 - Track 2.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/03 - unknown 3 - Track 3.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/04 - unknown 4 - Track 4.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/05 - unknown 5 - Track 5.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/06 - unknown 6 - Track 6.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/07 - unknown 7 - Track 7.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/08 - unknown 8 - Track 8.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/09 - unknown 9 - Track 9.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/10 - unknown 10 - Track 10.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/11 - unknown 11 - Track 11.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/12 - unknown 12 - Track 12.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/01 - Invisible Sensation.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/02 - スノウループ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/03 - サンタクロースは渋滞中.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/01 - オリオンをなぞる.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/02 - 僕は君になりたい.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/03 - UNOストーリー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/04 - over driver.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/05 - カラクリカルカレ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/06 - 23_25.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - オリオンをなぞる/07 - ガリレオのショーケース.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/01 - シュガーソングとビターステップ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/02 - シグナルABC.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - シュガーソングとビターステップ/03 - 東京シナリオ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/01 - センチメンタルピリオド.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/02 - 5分後のスターダスト.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - センチメンタルピリオド/03 - ガリレオのショーケース.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - マスターボリューム/01 - マスターボリューム.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - マスターボリューム/02 - 一人思うは雨の中.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - マスターボリューム/03 - スノウリバース.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/01 - リニアブルーを聴きながら.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/02 - さわれない歌.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/03 - 三日月の夜の真ん中.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - リニアブルーを聴きながら/04 - ラブソングは突然に 〜What is the name of that mystery？〜.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/01 - 桜のあと (all quartets lead to the_).flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/02 - ノンフィクションコンパス.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/03 - セク×カラ×シソンズール.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/01 - 春が来てぼくら.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/02 - ラディアルナイトチェイサー.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 春が来てぼくら/03 - Micro Paradiso!.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/01 - 流星前夜.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/02 - フルカラープログラム.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/03 - 水と雨について.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/04 - 2月、白昼の流れ星と飛行機雲.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/05 - MR.アンディ.flac
+/home/pi/Music/FLAC/UNISON/UNISON SQUARE GARDEN - 流星前夜/06 - 流星行路.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/01 - メッセンジャーフロム全世界.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/02 - コーヒーカップシンドローム.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/03 - チャイルドフッド・スーパーノヴァ.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/04 - cody beats.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/05 - 気まぐれ雑路.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/06 - キライ = キライ.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/07 - ライドオンタイム.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/08 - meet the world time.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/09 - 夜が揺れている.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/10 - アイラブニージュー.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/11 - スノウアンサー.flac
+/home/pi/Music/FLAC/UNISON/UYIBFK~Z/12 - 23_25.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/01 - さだまさし - 精霊流し.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/02 - さだまさし - 望郷.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/03 - さだまさし - 驛舎.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/04 - さだまさし - 長崎小夜曲.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/05 - さだまさし - 天然色の化石.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/06 - さだまさし - 神の恵み ～A Day of Providence～.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/07 - さだまさし - 祈り.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/08 - さだまさし - October ～リリー・カサブランカ～.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/09 - さだまさし - デイジー.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/10 - さだまさし - 主人公.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 I ～望郷篇～/11 - さだまさし - 防人の詩.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/01 - さだまさし - 雨やどり.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/02 - さだまさし - 線香花火.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/03 - さだまさし - 檸檬.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/04 - さだまさし - フレディもしくは三教街 -ロシア租界にて-.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/05 - さだまさし - 償い.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/06 - さだまさし - 前夜 (桃花鳥).flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/07 - さだまさし - セロ弾きのゴーシュ.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/08 - さだまさし - 生生流転.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/09 - さだまさし - 修二会.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/10 - さだまさし - まほろば.flac
+/home/pi/Music/FLAC/さだまさし - 新自分風土記 II ～まほろば篇～/11 - さだまさし - 風に立つライオン.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/01 - 岡村孝子 - 虹を追いかけて.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/02 - 岡村孝子 - 長い時間.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/03 - 岡村孝子 - TODAY.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/04 - 岡村孝子 - あなたと生きた季節.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/05 - 岡村孝子 - クリスマスの夜.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/06 - 岡村孝子 - 心の草原.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/07 - 岡村孝子 - 終わらない夏.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/08 - 岡村孝子 - 見返してやるんだわ.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/09 - 岡村孝子 - Believe.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/10 - 岡村孝子 - オー・ド・シェル (天の水).flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/11 - 岡村孝子 - Kiss.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/12 - 岡村孝子 - adieu.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/13 - 岡村孝子 - リフレイン.flac
+/home/pi/Music/FLAC/岡村孝子 - After Tone II/14 - 岡村孝子 - 天使たちの時.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王01 - 空耳ケーキ.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王02 - 風の色マーチ.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王03 - 星のめがね.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王04 - 胡桃鳴らす青空.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王05 - どういうことかな (氷の十字路編).flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王06 - 風の色マーチ (reprise).flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王07 - moi moi.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王08 - Weepin' rains.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王09 - 朝焼け線路.flac
+/home/pi/Music/FLAC/栗コーダーポップスオーケストラ feat. Oranges & Lemons - Tribute To あずまんが大王/Tribute To あずまんが大王10 - Raspberry heaven.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/02 - おはなし.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/03 - お別れをする時は.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/04 - 月には内緒で.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/05 - 厚底.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/06 - １４才の唄-Album Ver.-.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/07 - 紺色の主張.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/08 - １５歳の詩.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/09 - さよならロマン.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/10 - ばかやろう.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/11 - 革命を.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/12 - 好-じょし-.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/13 - 地球-まる-.flac
+/home/pi/Music/FLAC/坂口有望 - blue signs/14 - １６さいのうた-Album Ver.-.flac
+/home/pi/Music/FLAC/坂口有望 - 空っぽの空が僕はきらいだ/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/Music/FLAC/坂口有望 - 空っぽの空が僕はきらいだ/02 - ばかやろう.flac
+/home/pi/Music/FLAC/坂口有望 - 空っぽの空が僕はきらいだ/03 - ガタゴト.flac
+/home/pi/Music/FLAC/坂口有望 - 好-じょし-/01 - 好-じょし-.flac
+/home/pi/Music/FLAC/坂口有望 - 好-じょし-/02 - 紺色の主張.flac
+/home/pi/Music/FLAC/坂口有望 - 好-じょし-/03 - １６さいのうた-Studio Live Ver.-.flac
+/home/pi/Music/FLAC/坂口有望 - 放課後ジャーニー/01 - musicaian.flac
+/home/pi/Music/FLAC/坂口有望 - 放課後ジャーニー/02 - 青春.flac
+/home/pi/Music/FLAC/坂口有望 - 放課後ジャーニー/03 - 3341.flac
+/home/pi/Music/FLAC/坂口有望 - 放課後ジャーニー/04 - fruits.flac
+/home/pi/Music/FLAC/坂口有望 - 放課後ジャーニー/05 - いつか.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/01 - OSTER project - intro〜らんらんるー〜.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/02 - ika - みくみくにしてあげる♪[してやんよ].flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/03 - OSTERprojest - 恋スルVOC@LOID.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/04 - 19's Sound factiry - 少し楽しくなる時間.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/05 - 風見レン - ハト.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/06 - supercell - ブラック★ロックシューター.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/07 - Otomania - Ievan Polkka(Replica ver).flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/08 - livetune - Last Night,Good Night.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/09 - ラマーズP - ぽっぴっぽー.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/10 - アゴアニキ - 方向音痴.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/11 - supercell - 恋は戦争.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/12 - 麻太郎P - 君をのせて.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/13 - minato（流星P） - magnet.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/14 - doriko - ロミオとシンデレラ.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/15 - 彩音〜xi-on〜 - サラリーマンのうた.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/16 - デッドボールP - outro〜ふぅ、アリガト！ぺこり♪〜.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/17 - シンP - 卑怯戦隊うろたんだー.flac
+/home/pi/Music/FLAC/初音ミク - 初音ミクベスト-impacts-/初音ミク - 初音ミクベスト-impacts-.flac.m3u
+/home/pi/Music/FLAC/小沢健二 - LIFE/01 - 愛し愛されて生きるのさ.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/02 - ラブリー.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/03 - 東京恋愛専科・または恋は言ってみりゃボディー・ブロー.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/04 - いちょう並木のセレナーデ.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/05 - ドアをノックするのは誰だ？(ボーイズ・ライフpt1：クリスマス・ストーリー).flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/06 - 今夜はブギー・バック (nice vocal).flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/07 - ぼくらが旅に出る理由.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/08 - おやすみなさい、仔猫ちゃん！.flac
+/home/pi/Music/FLAC/小沢健二 - LIFE/09 - いちょう並木のセレナーデ (reprise).flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/01 - ブルーの構図のブルース.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/02 - 大人になれば.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/03 - Ale_.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/04 - ホテルと嵐.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/05 - すぐに会えるかな_.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/06 - 旅人たち.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/07 - 球体の奏でる音楽.flac
+/home/pi/Music/FLAC/小沢健二 - 球体の奏でる音楽/08 - みんなで練習を.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/01 - 小沢健二 - 流星ビバップ.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/02 - 小沢健二 - 痛快ウキウキ通り.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/03 - 小沢健二 - さよならなんて云えないよ (美しさ).flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/04 - 小沢健二 - 夢が夢なら.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/05 - 小沢健二 - 強い気持ち・強い愛.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/06 - 小沢健二 - それはちょっと.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/07 - 小沢健二 - 夜と日時計.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/08 - 小沢健二 - いちょう並木のセレナーデ.flac
+/home/pi/Music/FLAC/小沢健二 - 刹那/09 - 小沢健二 - 流星ビバップ.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/02 - くちづけの予感.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/03 - 遠い夏の日.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/04 - 年下の彼.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/05 - 私は泣かない.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/06 - Jealousy.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/07 - Half And Half （私自身）.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/08 - 1・2・3! （One-Two-Three）.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/09 - 夜の囁き.flac
+/home/pi/Music/FLAC/辛島美登里 - Night & Day [dBP]/10 - 永遠の楽園.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/01 - 10分前.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/02 - 愛の才能.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/03 - STONE.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/04 - DNA.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/05 - EDGE.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/06 - タイムマシーン.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/07 - やきそばパン.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/08 - LOVE & LUNA.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/09 - ひまわり.flac
+/home/pi/Music/FLAC/川本真琴 - 川本真琴/10 - 1_2.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ01 - 元気だしてよ (re-mix).flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ02 - いちばん大好きだった.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ03 - 一緒に暮らそう.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ04 - パレード・パレード.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ05 - ひとつぶの涙 (single version).flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ06 - 6月の雨.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ07 - 友達.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ08 - ときめきをBelieve.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ09 - たいくつな午後.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ10 - 今が好き.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ11 - 最後のKISS.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ12 - しあわせの涙.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ13 - 今夜あなたにフラレたい.flac
+/home/pi/Music/FLAC/谷村有美 - WithⅡ/WithⅡ14 - 愛する勇気.flac
+/home/pi/Music/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.mp4
