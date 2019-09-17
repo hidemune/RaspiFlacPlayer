@@ -4,8 +4,8 @@ sudo ifdown eth0 --force
 sudo ifup eth0
 
 for i in [ 1..30 ]; do
-  ip=`hostname -I | awk '{print $1}'`
-  if [[ "$ip" == 192* ]]; then
+  ip2=`hostname -I | awk '{print $1}'`
+  if [[ "$ip2" == 192* ]]; then
     break
   fi
   sleep 1
@@ -14,7 +14,7 @@ done
 rm -f /var/lib/tomcat8/webapps/ROOT/start
 cd /home/pi/git/RaspiFlacPlayer/
 
-ip2=`hostname -I | awk '{print $1}'`
+#ip2=`hostname -I | awk '{print $1}'`
 
 if [[ "${ip2}" != 192* ]]; then
   echo ネットワークアドレスを取得できません。
