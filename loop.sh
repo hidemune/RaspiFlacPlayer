@@ -15,7 +15,7 @@ volume=80
 export preNum=-1
 effect=
 
-rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
+#rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
 
 while true :
 do
