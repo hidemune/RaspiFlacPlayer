@@ -14,16 +14,17 @@ sudo umount /dev/${DEVICE}
 sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/ || sudo mount /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
+  export MusicDir=/home/pi/Music/
   echo No USB...
-  find /home/pi/Music/ -type f | sort > work.txt
+  echo ${MusicDir}
+  find ${MusicDir} -type f -not -path "*/playerSetting/*" | sort > work.txt
 
   if diff -q work.txt bkup.txt >/dev/null ; then
     sudo ./getIP_Nightly.sh
   else
     # Diff!
     sudo cp -f work.txt bkup.txt
-    export MusicDir=/home/pi/Music/
-    ./makeCSV.sh /home/pi/Music/
+    ./makeCSV.sh ${MusicDir}
     sudo ./getIP_Nightly.sh
   fi
 

@@ -27,7 +27,7 @@ if [ "$songid" != "" ];then
   ret=$(wget -q -O - "https://www.uta-net.com${songid}" | grep '<div id="kashi_area" itemprop="text">' | sed -e 's/<div id="kashi_area" itemprop="text">//g' -e 's/<\/div>//g' -e 's/<br \/>/\n/g' | sed 's/^\s*//g')
   echo "$ret"
   if [ "$ret" != "" ]; then
-    sudo mkdir "${MusicDir}/playerSetting/$1"
+    sudo mkdir -p "${MusicDir}/playerSetting/$1"
     sudo chmod 777 "${MusicDir}/playerSetting/$1"
     sudo echo "$ret" >> "${file}"
   fi
