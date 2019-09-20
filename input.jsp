@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
- import="java.io.*,java.util.*,java.text.*,java.nio.file.*" %>
+ import="java.lang.*,java.io.*,java.util.*,java.text.*,java.nio.file.*" %>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -29,15 +29,45 @@ function submitForm(filename, vol, buttonid, oops) {
     }
 }
 function getLyric(artist, song) {
+    //var ev = $("#pop11").get(0).onclick;
+    //$("#pop11").get(0).onclick = "";
+    
+    $('input[name=modalPop]').attr('checked',false);
+	$("#pop11").attr("checked", false);
+	$("#pop12").attr("checked", false);
+	$("#pop13").attr("checked", false);
+   var ele = document.getElementsByName("modalPop");
+   for(var i=0;i<ele.length;i++)
+      ele[i].checked = false;
+      
+    setTimeout(function() {
     var http = new XMLHttpRequest();
     http.open("POST", "lyric.jsp", true);
     http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     var params = "artist=" + encodeURIComponent(artist) + "&title=" + encodeURIComponent(song) ;
     http.send(params);
     http.onload = function() {
-        alert(http.responseText);
+    	try {
+		k = ("\n---\n");
+		var reta = http.responseText.split(k,2);
+		var tita = reta[0].trim().split("\n",2)
+		$(".modalTitle").html(tita[0] + "<br>" + tita[1]);
+		
+		if (reta[1].trim() != "" ) {
+	        	$(".modalMain").html("<pre>\n" + reta[1].replace("&amp;","&") + "\n</pre>");
+		} else {
+			$(".modalMain").html("<p>歌詞の取得に失敗しました。</p>");
+		}        	
+	} catch (e) {
+		$(".modalTitle").html("<p>Lyric</p>");
+		$(".modalMain").html("<p>歌詞の取得に失敗しました!!</p>");
+	}
+	$("#pop11").attr("checked", true);
+	   var ele = document.getElementById("pop11");
+      	   ele.checked = true;
     }
-
+    }, 500);
+    
   //var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
   //win.focus();
 }
@@ -285,7 +315,7 @@ while((line = objBr.readLine()) != null){
         buttonid = buttonid + 1;
         out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
 
-        out.println("<td><button onClick='getLyric(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞検索</button> </td>");
+        out.println("<td><button onClick='getLyric(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞表示</button> </td>");
         //out.println("<td>" + cols[4] + "</td>");
         out.println("</tr>");
       }
@@ -294,6 +324,20 @@ while((line = objBr.readLine()) != null){
 out.println("</table>");
 objBr.close();
  %>
-
+<div class="popupModal1">
+ <input type="radio" name="modalPop" id="pop11" />
+ <label for="pop11">クリックでポップアップ</label>
+ <input type="radio" name="modalPop" id="pop12" />
+ <label for="pop12">CLOSE</label>
+ <input type="radio" name="modalPop" id="pop13" />
+ <label for="pop13">×</label>
+ <div class="modalPopup2">
+  <div class="modalPopup3">
+   <h2 class="modalTitle">--- Lyric ---</h2>
+   <div class="modalMain">
+   </div>
+  </div>
+ </div>
+</div>
   </body>
 </html>

@@ -29,7 +29,7 @@
 
   Thread.sleep(3000);
   
-  //String filename=application.getRealPath("lyric");
+  filename=application.getRealPath("lyric");
   BufferedReader objBr = new BufferedReader(new InputStreamReader(new FileInputStream(filename),"UTF-8"));
   String line = "";
   while ((line = objBr.readLine()) != null) {
@@ -37,4 +37,3 @@
   }
   objBr.close();
 %>
-
