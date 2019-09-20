@@ -53,6 +53,7 @@ do
     if [ $(cat /var/lib/tomcat8/webapps/ROOT/lyric | wc -l) -eq 2 ] ; then
       artist=`sed -n 1P /var/lib/tomcat8/webapps/ROOT/lyric | xargs | cut -f 1 -d ' '`
       title=`sed -n 2P /var/lib/tomcat8/webapps/ROOT/lyric`
+      title=$(echo $title | sed s/\(.*\)//g | sed s/〜.*〜//g | sed s/~.*~//g | sed s/\-.*\-//g | xargs)
       ret=$(./getLyricUtaNet.sh "${artist}" "${title}")
       echo "---" >> /var/lib/tomcat8/webapps/ROOT/lyric
       echo "$ret" >> /var/lib/tomcat8/webapps/ROOT/lyric
@@ -111,6 +112,7 @@ do
     if [ $(cat /var/lib/tomcat8/webapps/ROOT/lyric | wc -l) -eq 2 ] ; then
       artist=`sed -n 1P /var/lib/tomcat8/webapps/ROOT/lyric | xargs | cut -f 1 -d ' '`
       title=`sed -n 2P /var/lib/tomcat8/webapps/ROOT/lyric`
+      title=$(echo $title | sed s/\(.*\)//g | sed s/〜.*〜//g | sed s/~.*~//g | sed s/\-.*\-//g | xargs)
       ret=$(./getLyricUtaNet.sh "${artist}" "${title}")
       echo "---" >> /var/lib/tomcat8/webapps/ROOT/lyric
       echo "$ret" >> /var/lib/tomcat8/webapps/ROOT/lyric
