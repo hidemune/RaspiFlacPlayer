@@ -49,6 +49,15 @@ do
         #echo VOLUME : ${vol}
         ./volume.sh ${vol}
       fi
+    # lyric set
+    if [ $(cat /var/lib/tomcat8/webapps/ROOT/lyric | wc -l) -eq 2 ] ; then
+      artist=`sed -n 1P /var/lib/tomcat8/webapps/ROOT/lyric | xargs | cut -f 1 -d ' '`
+      title=`sed -n 2P /var/lib/tomcat8/webapps/ROOT/lyric`
+      ret=$(./getLyricUtaNet.sh "${artist}" "${title}")
+      echo "---" >> /var/lib/tomcat8/webapps/ROOT/lyric
+      echo "$ret" >> /var/lib/tomcat8/webapps/ROOT/lyric
+    fi
+
       # STOP !
       if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
         #trap 'wait $PID' EXIT
@@ -98,6 +107,15 @@ do
       #echo VOLUME : ${vol}
       ./volume.sh ${vol}
     fi
+    # lyric set
+    if [ $(cat /var/lib/tomcat8/webapps/ROOT/lyric | wc -l) -eq 2 ] ; then
+      artist=`sed -n 1P /var/lib/tomcat8/webapps/ROOT/lyric | xargs | cut -f 1 -d ' '`
+      title=`sed -n 2P /var/lib/tomcat8/webapps/ROOT/lyric`
+      ret=$(./getLyricUtaNet.sh "${artist}" "${title}")
+      echo "---" >> /var/lib/tomcat8/webapps/ROOT/lyric
+      echo "$ret" >> /var/lib/tomcat8/webapps/ROOT/lyric
+    fi
+    
     # mode=1 かつ、キューにある場合、キャンセルボタンと同じにする
     if [ ${mode} -eq 1 ] ; then
       lslst=(`ls /var/lib/tomcat8/webapps/ROOT/que* 2>/dev/null`)

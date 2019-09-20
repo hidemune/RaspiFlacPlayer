@@ -1,4 +1,3 @@
-<!-- あ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
  import="java.io.*,java.util.*,java.text.*,java.nio.file.*" %>
 <!DOCTYPE html>
@@ -29,9 +28,18 @@ function submitForm(filename, vol, buttonid, oops) {
         //alert(http.responseText);
     }
 }
-function getPoem(artist, song) {
-  var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
-  win.focus();
+function getLyric(artist, song) {
+    var http = new XMLHttpRequest();
+    http.open("POST", "lyric.jsp", true);
+    http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    var params = "artist=" + encodeURIComponent(artist) + "&title=" + encodeURIComponent(song) ;
+    http.send(params);
+    http.onload = function() {
+        alert(http.responseText);
+    }
+
+  //var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
+  //win.focus();
 }
 </script>
 <div id="header"><!-- ここはヘッダです -->
@@ -277,7 +285,7 @@ while((line = objBr.readLine()) != null){
         buttonid = buttonid + 1;
         out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
 
-        out.println("<td><button onClick='getPoem(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞検索</button> </td>");
+        out.println("<td><button onClick='getLyric(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞検索</button> </td>");
         //out.println("<td>" + cols[4] + "</td>");
         out.println("</tr>");
       }
