@@ -22,6 +22,7 @@ if [ $? -gt 0 ] ; then
   else
     # Diff!
     sudo cp -f work.txt bkup.txt
+    export MusicDir=/home/pi/Music/
     ./makeCSV.sh /home/pi/Music/
     sudo ./getIP_Nightly.sh
   fi
@@ -39,6 +40,8 @@ sudo cp -f ./rireki $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rirek
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bkup.txt
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki ./rireki
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
+
+export MusicDir=$(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
 find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "*/playerSetting/*" | sort > work.txt
 
 if diff -q work.txt bkup.txt >/dev/null ; then
