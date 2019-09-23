@@ -30,13 +30,14 @@ function urlencode {
 artist=$(echo "$artist" | xargs | cut -f 1 -d ' ')
 query=$(urlencode "$title")
 
-firefox "https://www.uta-net.com/search/?Aselect=2&Bselect=3&Keyword=${query}"
 get=$(wget -q -O - "https://www.uta-net.com/search/?Aselect=2&Bselect=3&Keyword=${query}")
 hitsongs=$(echo $get | egrep -o "/song/.{1,9}/" | wc -l)
 #echo Count : ${hitsongs}
 if [ ${hitsongs} -eq 0 ] ; then
   :
   songid=""
+  firefox "https://search.yahoo.co.jp/search?p=${query}+歌詞&ei=UTF-8" &
+  exit 0
 else
   songid=$(echo "$get" | grep "${artist}" | egrep -om1 "/song/.{1,9}/" )
 fi
@@ -50,5 +51,7 @@ if [ "$songid" != "" ];then
   #  sudo chmod 777 "${MusicDir}/playerSetting/$1"
   #  sudo echo "$ret" >> "${file}"
   #fi
-  firefox "https://www.uta-net.com${songid}"
+  firefox "https://www.uta-net.com${songid}" &
+else
+  firefox "https://www.uta-net.com/search/?Aselect=2&Bselect=3&Keyword=${query}" &
 fi
