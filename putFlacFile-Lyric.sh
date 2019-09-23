@@ -27,9 +27,10 @@ function urlencode {
   echo "$1" | nkf -WwMQ | sed 's/=$//g' | tr = % | tr -d '\n'
 }
 
-artist=$(echo "$artist" | grep xargs | cut -f 1 -d ' ')
+artist=$(echo "$artist" | xargs | cut -f 1 -d ' ')
 query=$(urlencode "$title")
 
+firefox "https://www.uta-net.com/search/?Aselect=2&Bselect=3&Keyword=${query}"
 get=$(wget -q -O - "https://www.uta-net.com/search/?Aselect=2&Bselect=3&Keyword=${query}")
 hitsongs=$(echo $get | egrep -o "/song/.{1,9}/" | wc -l)
 #echo Count : ${hitsongs}
