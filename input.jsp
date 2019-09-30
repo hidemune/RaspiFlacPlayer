@@ -29,6 +29,7 @@ function submitForm(filename, vol, buttonid, oops) {
     }
 }
 function getLyric(artist, song) {
+  /*
     //var ev = $("#pop11").get(0).onclick;
     //$("#pop11").get(0).onclick = "";
     
@@ -51,25 +52,28 @@ function getLyric(artist, song) {
 		k = ("\n---\n");
 		var reta = http.responseText.split(k,2);
 		var tita = reta[0].trim().split("\n",2)
-		$(".modalTitle").html(tita[0] + "<br>" + tita[1]);
-		
+
 		if (reta[1].trim() != "" ) {
+				    $(".modalTitle").html(tita[0] + "<br>" + tita[1]);
 	        	$(".modalMain").html("<pre>\n" + reta[1].replace("&amp;","&") + "\n</pre>");
 		} else {
-			$(".modalMain").html("<p>歌詞の取得に失敗しました。</p>");
+			//$(".modalMain").html("<p>歌詞の取得に失敗しました。</p>");
+			var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
+			win.focus();
+			return;
 		}        	
 	} catch (e) {
 		$(".modalTitle").html("<p>Lyric</p>");
 		$(".modalMain").html("<p>歌詞の取得に失敗しました!!</p>");
-	}
+	};
 	$("#pop11").attr("checked", true);
 	   var ele = document.getElementById("pop11");
       	   ele.checked = true;
     }
     }, 500);
-    
-  //var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
-  //win.focus();
+    */
+  var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
+  win.focus();
 }
 </script>
 <div id="header"><!-- ここはヘッダです -->
@@ -212,7 +216,7 @@ function getLyric(artist, song) {
 
 入力： <%=strTxt0%>：<%=strTxt1%>：<%=strTxt2%>：検索します<br>
 
-      検索ワード？
+      USB検索ワード:
       <input name="textfield0" type="text" class="textField" id="tField0">
       <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0);" >
       <option value=""></option>
@@ -227,7 +231,7 @@ objBr.close();
 %>
       </select>
 <br>
-      検索ワード？
+      Youtube検索ワード:
       <input name="textfield1" type="text" class="textField" id="tField1">
       <select name="select1" class="selectBox" id="selBox1" onChange="getSelect(1)">
       <option value=""></option>
@@ -241,7 +245,7 @@ while((line = objBr.readLine()) != null){
 objBr.close();
 %>
       </select>
-<br>
+<!-- br>
       検索ワード？
       <input name="textfield2" type="text" class="textField" id="tField2">
       <select name="select2" class="selectBox" id="selBox2" onChange="getSelect(2)">
@@ -256,7 +260,7 @@ while((line = objBr.readLine()) != null){
 objBr.close();
 %>
       </select>
-<br>
+<br -->
 
       <input type="submit" value="検索" />
     </form>
@@ -289,18 +293,13 @@ out.println("<table border='1' >");
         //out.println("<td>Volume</td>");
         out.println("</tr>");
 int buttonid = 0;
+if (!(strTxt0.equals(""))) {
 while((line = objBr.readLine()) != null){
     StringTokenizer objTkn=new StringTokenizer(line,"\n");
     while(objTkn.hasMoreTokens()){
       String csvLine = objTkn.nextToken();
       boolean flg = true;
       if (csvLine.toLowerCase().indexOf(strTxt0.toLowerCase()) < 0) {
-        flg = false;
-      }
-      if (csvLine.toLowerCase().indexOf(strTxt1.toLowerCase()) < 0) {
-        flg = false;
-      }
-      if (csvLine.toLowerCase().indexOf(strTxt2.toLowerCase()) < 0) {
         flg = false;
       }
       if (flg) {
@@ -321,6 +320,71 @@ while((line = objBr.readLine()) != null){
       }
     }
 }
+}
+
+if (!(strTxt1.equals(""))) {
+  try {
+    Process p=Runtime.getRuntime().exec("curl -X POST https://www.youtube.com/results?search_query=" + strTxt1);
+    
+    BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream()));
+    String line2 = reader.readLine();
+    while(line2 != null) {
+      //out.println(line2.replace("<","&lt;").replace(">","&gt;"));
+      boolean flg = true;
+        if (line2.indexOf("/watch?v") < 0) {
+          flg = false;
+        }
+        if (flg) {
+          //out.println(line2);
+          
+          String hrefstr = "";
+          String textstr = "";
+          String[] cols = line2.split("=|\"|\'|>|<", 0);
+          //for (int ii=0;ii<cols.length;ii++) {
+          //  out.println(ii+ ":" + cols[ii]);
+          //}
+          for (int ii=0;ii<cols.length;ii++) {
+                if (cols[ii].trim().equals("/a")) {
+                  textstr = cols[ii-1];
+                  break;
+                }
+          }
+          for (int ii=0;ii<cols.length;ii++) {
+                if (cols[ii].trim().equals("/watch?v")) {
+                  hrefstr = "https://www.youtube.com" + cols[ii+0] + "=" + cols[ii+1];
+                  break;
+                }
+          }
+          if (!(textstr.equals(""))) {  
+  out.println("<tr>");
+  out.println("<td>-</td>");
+  out.println("<td>-</td>");
+  out.println("<td>" + textstr + "</td>");
+  buttonid = buttonid + 1;
+  out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + hrefstr.replace("\'","&#39") + "\",\"" + "\"," + buttonid +",\"\")' style='width:100px; height:4em; '>Play</button> </td>");
+  buttonid = buttonid + 1;
+  out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + hrefstr.replace("\'","&#39") + "\",\""  + "\"," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
+
+  out.println("<td><button onClick='getLyric(\"\",\"" + textstr.replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞表示</button> </td>");
+  out.println("</tr>");
+              //break;
+          }
+        }
+          
+        
+      
+        line2 = reader.readLine();
+      }
+    
+    reader.close();
+//    p.waitFor();
+    
+  }catch(Exception e) {
+    out.println(e);
+  }
+
+}
+
 out.println("</table>");
 objBr.close();
  %>

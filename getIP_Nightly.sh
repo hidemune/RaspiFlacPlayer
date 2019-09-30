@@ -55,8 +55,8 @@ while [ 1 ]; do
     sudo shutdown now
     exit 0
   else
-    aplay -D plughw:1 url.wav 2>/dev/null
-    touch /var/lib/tomcat8/webapps/ROOT/start
+    aplay url.wav 2>/dev/null
+    #touch /var/lib/tomcat8/webapps/ROOT/start
   fi
   sleep 1
 done

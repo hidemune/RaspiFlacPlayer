@@ -6,11 +6,11 @@ IFS='
 
 num_images=${#images[*]}
 echo MAX : $num_images
-if [ ${preNum} -ge 0 ] ; then
+if [ "${preNum}" == "" ] ; then
   export preNum=-1
 fi
 
-while true
+for i in 1..5
 do
   nextNum=$(($RANDOM % $num_images))
   if [ "${preNum}" != "${nextNum}" ] ; then
