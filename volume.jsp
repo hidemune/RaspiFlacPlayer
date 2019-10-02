@@ -13,6 +13,19 @@
 </head>
 
 <body id="iframe">
+<script src="jquery.min.js"></script>
+<script>
+function nextMusic() {
+    var http = new XMLHttpRequest();
+    http.open("POST", "kettei.jsp", true);
+    http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    var params = "cancel=1" ;
+    http.send(params);
+    http.onload = function() {
+        //alert(http.responseText);
+    }
+}
+</script>
 　【音量】<br>
 
 <%
@@ -49,8 +62,7 @@
 <br>
 <br>
 
-<a href="kettei.jsp?cancel=1" target="_top">
-<button type="button" name="cancel" value="1"><font size="5" color="#333399">&nbsp;&nbsp;次の曲&nbsp;&nbsp;</font>
+<button type="button" name="cancel" value="1" onClick='nextMusic()'"><font size="5" color="#333399">&nbsp;&nbsp;次の曲&nbsp;&nbsp;</font>
 </button>
 
 <br>

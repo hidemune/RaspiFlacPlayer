@@ -4,17 +4,19 @@ files='./all.csv'
 IFS='
 ' images=(`cat $files`)
 
+preNum=$(cat preNum)
+
 num_images=${#images[*]}
 echo MAX : $num_images
 if [ "${preNum}" == "" ] ; then
-  export preNum=-1
+  preNum=-1
 fi
 
-for i in 1..5
-do
+for i in {1..32}; do
   nextNum=$(($RANDOM % $num_images))
   if [ "${preNum}" != "${nextNum}" ] ; then
-    export preNum=${nextNum}
+    preNum=${nextNum}
+    echo $preNum > preNum
     break
   fi
 done

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+MusicDir=$(cat MusicDir)
+
   fname="$1"
   base=$(basename "$1")
 

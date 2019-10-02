@@ -14,7 +14,8 @@ sudo umount /dev/${DEVICE}
 sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/ || sudo mount /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
-  export MusicDir=/home/pi/Music/
+  MusicDir=/home/pi/Music/
+  echo $MusicDir > MusicDir
   echo No USB...
   echo ${MusicDir}
   find ${MusicDir} -type f -not -path "*/playerSetting/*" | sort > work.txt
@@ -42,7 +43,8 @@ sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt ./bku
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki ./rireki
 sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
 
-export MusicDir=$(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
+MusicDir=$(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
+echo MusicDir > MusicDir
 find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "*/playerSetting/*" | sort > work.txt
 
 if diff -q work.txt bkup.txt >/dev/null ; then

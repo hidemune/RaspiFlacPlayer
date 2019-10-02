@@ -6,6 +6,8 @@ function urlencode {
 artist="$1"
 query=$(urlencode "$2")
 
+MusicDir=$(cat MusicDir)
+
 file=${MusicDir}/playerSetting/$1/$2.txt
 if [ -e "${file}" ]; then
   cat "${file}"

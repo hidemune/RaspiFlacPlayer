@@ -12,7 +12,7 @@ mode=0 #SYOKICHI:0
 
 volume=80
 ./volume.sh 80
-export preNum=-1
+echo -1 > preNum
 effect=
 
 #rec -t wav - echo 0.8 0.88 0.1 0.4 | aplay &
