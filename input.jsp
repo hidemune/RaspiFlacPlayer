@@ -3,79 +3,18 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <link rel="stylesheet" type="text/css" href="jcard.css?ver=201908132111" />
- <meta http-equiv="Pragma" content="no-cache">
- <meta http-equiv="Cache-Control" content="no-cache">
- <meta http-equiv="Expires" content="0">
- <meta http-equiv="content-style-type" content="text/css">
- <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css"></script>
+    <link rel="stylesheet" href="jcard.css"></script>
+    <script src="vue.js"></script>
+    <script src="vue-tables-2.min.js"></script>
+    <script src="jquery.min.js"></script>
     <title>再生</title>
 </head>
-<body>
-<script src="jquery.min.js"></script>
-<script>
-function submitForm(filename, vol, buttonid, oops) {
-    $("button#" + buttonid).attr("disabled","true"); 
-    //alert("予約 : " + filename);
-    //alert(vol);<%@ page contentType="text/html; charset=UTF-8" %>
-    var http = new XMLHttpRequest();
-    http.open("POST", "kettei.jsp", true);
-    http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-    var params = "filename=" + encodeURIComponent(filename) + "&volume=" + vol + "&effect=" + oops ;
-    http.send(params);
-    http.onload = function() {
-        //alert(http.responseText);
-    }
-}
-function getLyric(artist, song) {
-  /*
-    //var ev = $("#pop11").get(0).onclick;
-    //$("#pop11").get(0).onclick = "";
-    
-    $('input[name=modalPop]').attr('checked',false);
-	$("#pop11").attr("checked", false);
-	$("#pop12").attr("checked", false);
-	$("#pop13").attr("checked", false);
-   var ele = document.getElementsByName("modalPop");
-   for(var i=0;i<ele.length;i++)
-      ele[i].checked = false;
-      
-    setTimeout(function() {
-    var http = new XMLHttpRequest();
-    http.open("POST", "lyric.jsp", true);
-    http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-    var params = "artist=" + encodeURIComponent(artist) + "&title=" + encodeURIComponent(song) ;
-    http.send(params);
-    http.onload = function() {
-    	try {
-		k = ("\n---\n");
-		var reta = http.responseText.split(k,2);
-		var tita = reta[0].trim().split("\n",2)
 
-		if (reta[1].trim() != "" ) {
-				    $(".modalTitle").html(tita[0] + "<br>" + tita[1]);
-	        	$(".modalMain").html("<pre>\n" + reta[1].replace("&amp;","&") + "\n</pre>");
-		} else {
-			//$(".modalMain").html("<p>歌詞の取得に失敗しました。</p>");
-			var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
-			win.focus();
-			return;
-		}        	
-	} catch (e) {
-		$(".modalTitle").html("<p>Lyric</p>");
-		$(".modalMain").html("<p>歌詞の取得に失敗しました!!</p>");
-	};
-	$("#pop11").attr("checked", true);
-	   var ele = document.getElementById("pop11");
-      	   ele.checked = true;
-    }
-    }, 500);
-    */
-  var win = window.open("https://search.yahoo.co.jp/search?p=" + encodeURIComponent("歌詞 " + artist + " " + song) + "&ei=UTF-8", '_blank');
-  win.focus();
-}
-</script>
+<body>
+
+
 <div id="header"><!-- ここはヘッダです -->
 
     <form method="GET" action="input.jsp">
@@ -275,23 +214,80 @@ function getText(unit) {
   alert(s);
 }
 </script>
+<script>
 
+
+
+</script>
+
+<h3 class="vue-title">Result</h3>
+
+<div id="app">
+  <v-client-table :columns="columns" :data="data" :options="options">
+    <slot slot="url" slot-scope="props">
+    <button @click="submitForm(props.row.url,'')">Play</button>
+    </slot>
+  </v-client-table>
+</div>
+
+<script>
+
+
+
+Vue.use(VueTables.ClientTable);
+
+new Vue({
+  el: "#app",
+  data: {
+    columns: [
+    
+      'album',
+      'title',
+      'url'
+    ],
+    data: getData(),
+    options: {
+      groupBy: 'artist',
+	    columnsDropdown: true, 
+      headings: {
+
+        album: 'アルバム',
+        title: 'タイトル',
+        url: 'Button'
+      },
+      sortable: [
+        'album', 'title'
+      ],
+      texts: {
+        filterPlaceholder: '検索する'
+      }
+    }
+  },
+  methods: {
+    submitForm: function (filename, oops) {
+      alert(filename);
+      var http = new XMLHttpRequest();
+      http.open("POST", "kettei.jsp", true);
+      http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      var params = "filename=" + encodeURIComponent(filename) + "&effect=" + oops ;
+      http.send(params);
+      http.onload = function() {
+          //alert(http.responseText);
+      }
+    }
+  }
+});
+
+
+
+function getData() {
+  return [
  <%
 file=new File(application.getRealPath("all.csv"));
 objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 
 line = "";
-out.println("<table border='1' >");
-        out.println("<tr>");
-        //out.println("<td>" + cols[0] + "</td>");
-        out.println("<td>アーティスト</td>");
-        out.println("<td>アルバム</td>");
-        out.println("<td>タイトル</td>");
-        out.println("<td>Play</td>");
-        out.println("<td>Vocal Off</td>");
-        out.println("<td>歌詞</td>");
-        //out.println("<td>Volume</td>");
-        out.println("</tr>");
+
 int buttonid = 0;
 if (!(strTxt0.equals(""))) {
 while((line = objBr.readLine()) != null){
@@ -304,19 +300,17 @@ while((line = objBr.readLine()) != null){
       }
       if (flg) {
         String[] cols = csvLine.split("\t", -1);
-        out.println("<tr>");
-        //out.println("<td>" + cols[0] + "</td>");
-        out.println("<td>" + cols[1] + "</td>");
-        out.println("<td>" + cols[2] + "</td>");
-        out.println("<td>" + cols[3] + "</td>");
+        out.println("{");
+        out.println("'artist': '" + cols[1] + "',");
+        out.println("'album': '" + cols[2] + "',");
+        out.println("'title': '" + cols[3] + "',");
+        out.println("'url': '" + cols[0] + "',");
+        out.println("'volume': '" + cols[4] + "'");
+        
         buttonid = buttonid + 1;
-        out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"\")' style='width:100px; height:4em; '>Play</button> </td>");
-        buttonid = buttonid + 1;
-        out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + cols[0].replace("\'","&#39") + "\"," + cols[4] + "," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
-
-        out.println("<td><button onClick='getLyric(\"" + cols[1].replace("\'","&#39") + "\",\"" + cols[3].replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞表示</button> </td>");
-        //out.println("<td>" + cols[4] + "</td>");
-        out.println("</tr>");
+        
+        out.println("    },");
+        
       }
     }
 }
@@ -356,18 +350,12 @@ if (!(strTxt1.equals(""))) {
                 }
           }
           if (!(textstr.equals(""))) {  
-  out.println("<tr>");
-  out.println("<td>-</td>");
-  out.println("<td>-</td>");
-  out.println("<td>" + textstr + "</td>");
-  buttonid = buttonid + 1;
-  out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + hrefstr.replace("\'","&#39") + "\",\"" + "\"," + buttonid +",\"\")' style='width:100px; height:4em; '>Play</button> </td>");
-  buttonid = buttonid + 1;
-  out.println("<td><button id='" + buttonid + "' onClick='submitForm(\"" + hrefstr.replace("\'","&#39") + "\",\""  + "\"," + buttonid +",\"oops\")' style='width:100px; height:4em; '>カラオケ</button> </td>");
-
-  out.println("<td><button onClick='getLyric(\"\",\"" + textstr.replace("\'","&#39") + "\")' style='width:100px; height:4em; '>歌詞表示</button> </td>");
-  out.println("</tr>");
-              //break;
+        out.println("{");
+        out.println("'artist': '-',");
+        out.println("'album': '-',");
+        out.println("'title': '" + textstr + "',");
+        out.println("'url': '" + hrefstr + "'");
+        out.println("    },");
           }
         }
           
@@ -385,23 +373,13 @@ if (!(strTxt1.equals(""))) {
 
 }
 
-out.println("</table>");
 objBr.close();
  %>
-<div class="popupModal1">
- <input type="radio" name="modalPop" id="pop11" />
- <label for="pop11">クリックでポップアップ</label>
- <input type="radio" name="modalPop" id="pop12" />
- <label for="pop12">CLOSE</label>
- <input type="radio" name="modalPop" id="pop13" />
- <label for="pop13">×</label>
- <div class="modalPopup2">
-  <div class="modalPopup3">
-   <h2 class="modalTitle">--- Lyric ---</h2>
-   <div class="modalMain">
-   </div>
-  </div>
- </div>
-</div>
+  ];
+}
+
+</script>
+
+
   </body>
 </html>

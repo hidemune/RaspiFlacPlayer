@@ -27,7 +27,7 @@ do
     # QUE
     mode=2 #QUE:2
     qfiles=(`ls /var/lib/tomcat8/webapps/ROOT/que* -1 2>/dev/null`)
-    ./PlMusic.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`" "`sed -n 3P ${qfiles[0]}`"
+    ./PlMusicHireso.sh "`sed -n 1P ${qfiles[0]}`" "`sed -n 2P ${qfiles[0]}`" "`sed -n 3P ${qfiles[0]}`"
     sleep 3
     #echo Kettei : 「"`cat ${qfiles[0]}`"」 
     rm -f ${qfiles[0]}

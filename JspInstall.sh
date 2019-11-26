@@ -12,4 +12,4 @@ sudo cp *.css /var/lib/tomcat8/webapps/ROOT/karaoke/
 sudo cp index.html /var/lib/tomcat8/webapps/ROOT/
 sudo cp *.png /var/lib/tomcat8/webapps/ROOT/
 sudo cp rireki /var/lib/tomcat8/webapps/ROOT/
-sudo cp vue /var/lib/tomcat8/webapps/ROOT/vue
+sudo rm -f /var/lib/tomcat8/webapps/ROOT/que*

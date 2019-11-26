@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo ifdown eth0 --force
-sudo ifup eth0
+#sudo ifdown eth0 --force
+#sudo ifup eth0
 
 for i in [ 1..30 ]; do
   ip2=`hostname -I | awk '{print $1}'`
@@ -42,8 +42,8 @@ fi
 
 while [ 1 ]; do
   if [ -f /var/lib/tomcat8/webapps/ROOT/start ]; then
-    xte 'keydown Alt_L' 
-    xte 'key " "'
+    xte 'keydown Alt_L'
+    xte 'key \ '
     xte 'keyup Alt_L'
     xte 'key N'
 

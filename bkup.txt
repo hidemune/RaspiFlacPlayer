@@ -1,2 +1,32 @@
-/home/pi/Music/07 - イルカ - 月光.flac
-/home/pi/Music/08 - イルカ - 僕のLovely Girl.flac
+/home/pi/mount/Music/08 - イルカ - 僕のLovely Girl.flac
+/home/pi/mount/Music/iruka_FollowMe_1.flac
+/home/pi/mount/Music/iruka_FollowMe_2.flac
+/home/pi/mount/Music/僕のLovely Girl.flac
+/home/pi/mount/RasPi/Ducati7Chome.mp4
+/home/pi/mount/RasPi/River - 14205.mp4
+/home/pi/mount/RasPi/Sky.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/UNISON SQUARE GARDEN「プログラムcontinued(15th style)」Music Video.mp4
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/Usg Invisible Sensation.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/Usg Invisible Sensation2.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/Usg Invisible Sensation3.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/Usg Invisible Sensation4.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/Usg20180307Dvd.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.mp4
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/【1日限定公開】UNISON SQUARE GARDEN「Phantom Joke」 - YouTube.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/オリオンをなぞる.m4v
+/home/pi/mount/RasPi/UNISON SQUARE GARDEN/シュガーソングとビターステップ.m4v
+/home/pi/mount/RasPi/Vocaloid/RING x ring x ring - YouTube.mp4
+/home/pi/mount/RasPi/Vocaloid/「ＭＶ」　千本桜　WhiteFlame feat 初音ミク - YouTube.mp4
+/home/pi/mount/RasPi/Vocaloid/【VOCALOID】POMPADOUR【巡音ルカ】 - YouTube.mp4
+/home/pi/mount/RasPi/Vocaloid/【VOCALOID】ミラクルショウタイム【初音ミク】 - YouTube.mp4
+/home/pi/mount/RasPi/Vocaloid/【初音ミク】ミラクルペイント【高音質】　miracle paint high-quality sound - YouTu.mp4
+/home/pi/mount/RasPi/YmckDVD.m4v
+/home/pi/mount/RasPi/emotion.m4v
+/home/pi/mount/RasPi/heboris.m4v
+/home/pi/mount/RasPi/宇宙の大きさを体感できる動画（Mitaka 版.mp4
+/home/pi/mount/RasPi/坂口有望/坂口有望 bluesigns short.m4v
+/home/pi/mount/RasPi/坂口有望/坂口有望 「地球-まる-」 Music Video - YouTube.mp4
+/home/pi/mount/RasPi/坂口有望/坂口有望 『好-じょし-』Music Video - YouTube.mp4
+/home/pi/mount/RasPi/坂口有望/坂口有望 放課後ジャーニー_Short.m4v
+/home/pi/mount/RasPi/飛行機/Blueimpulseshort.m4v
+/home/pi/mount/RasPi/飛行機/PlaneShort.m4v
