@@ -29,14 +29,12 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y install git
 sudo apt-get -y install openjdk-8-jdk nginx tomcat8 --fix-missing
-sudo apt-get -y install thunar smbclient omxplayer alsa-oss alsa-utils alsamixergui 
-sudo apt-get -y install unclutter wicd handbrake
-sudo apt-get -y install xfce4 xfce4-goodies
+sudo apt-get -y install thunar smbclient
+sudo apt-get -y install unclutter handbrake xautomation
+
 
 sudo apt-get install open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-jp-atr503-m001 -y
 
-sudo update-alternatives --config x-session-manager
-startxfce4 を選択した後、再起動。
 reboot
 
 git clone https://github.com/hidemune/RaspiFlacPlayer.git
@@ -44,12 +42,39 @@ cd RaspiFlacPlayer
 sudo ./jyunbi.sh
 (ここで、tomcat7系のエラーは無視して構いません)
 
-./getIP.sh
-これを実行して出た結果が、スマホ等から見たアドレスになります。（自宅LAN内のみ）
+
+sudo nano /etc/nginx/sites-enabled/default 
+
+
+
+server {
+listen 80;
+server_name localhost;
+
+#charset koi8-r;
+
+#access_log /var/log/nginx/host.access.log main;
+
+location / {
+root /var/lib/tomcat8/webapps/ROOT;
+proxy_pass http://127.0.0.1:8080;
+proxy_set_header X-Forwarded-Host $host;
+}
+
+//その他設定
+
+}
+
+
+# sonota
+
+sudo apt-get install -y sox bc
+cd /home/pi
+mkdir mount
 
 
 # 実行
-sudo ./loop.sh
+sudo ./usbMusicList.sh
 
 
 # うまく動画が再生されない時
