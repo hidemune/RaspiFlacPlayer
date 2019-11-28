@@ -146,7 +146,7 @@
 </div><!-- id="header" ここまでヘッダです -->
 
 <div id="sample">
-  <label for="toggle">(SideBar)</label>
+  <label for="toggle">(^_^)</label>
   <input type="checkbox" id="toggle">
 
     <div id="lt"><!-- ここは左メニューです -->

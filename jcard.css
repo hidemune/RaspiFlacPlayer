@@ -64,7 +64,10 @@ input#yoyaku {
   #sample label{
     position: absolute;
 	  left: 0px;
-	  top: 80px;
+	  top: 20px;
+	  width: 80px;
+	  height: 200px;
+	  font-size: 3em;
     cursor: pointer;
     z-index: 100;
   }
@@ -90,7 +93,9 @@ input#yoyaku {
 	  z-index: 50;
 	  transition: all 500ms 0s ease;
   }
-
+  button{
+    height: 5em;
+  }
 
 
 	/*============================================
