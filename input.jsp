@@ -145,13 +145,19 @@
 <!-- %=volume% -->
 </div><!-- id="header" ここまでヘッダです -->
 
+<div id="sample">
+  <label for="toggle">(SideBar)</label>
+  <input type="checkbox" id="toggle">
 
-<div id="lt"><!-- ここは左メニューです -->
-<iframe seamless src="volume.jsp" width="100%" height="99%" frameborder="0" scrolling="auto"></iframe>
-</div> <!-- id="lt" ここまで左メニューです -->
+    <div id="lt"><!-- ここは左メニューです -->
+    <iframe seamless src="volume.jsp" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+    </div> <!-- id="lt" ここまで左メニューです -->
 
+</div>
 <div id="main"><!-- ########## ここから本文です ########## -->
 <div id="main2"><!-- 縁を 20px あけるためのものです -->
+
+
 
 入力： <%=strTxt0%>：<%=strTxt1%>：<%=strTxt2%>：検索します<br>
 
