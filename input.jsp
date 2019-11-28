@@ -290,7 +290,10 @@ function getText(unit) {
 <div id="app">
   <v-client-table :columns="columns" :data="data" :options="options">
     <slot slot="url" slot-scope="props">
-    <button @click="submitForm(props.row.url,'')" style="height: 4em">Play</button><button @click="submitForm(props.row.url,'oops')" style="height: 4em">Karaoke</button>
+    <button @click="submitForm(props.row.url,'')" style="height: 4em">Play</button>
+    <!--
+    <button @click="submitForm(props.row.url,'oops')" style="height: 4em">Karaoke</button>
+    -->
     </slot>
   </v-client-table>
 </div>
