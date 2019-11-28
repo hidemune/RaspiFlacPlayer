@@ -155,8 +155,81 @@
 
 入力： <%=strTxt0%>：<%=strTxt1%>：<%=strTxt2%>：検索します<br>
 
+<!--
+<h3 class="vue-title">Search</h3>
+
+<div id="word">
+  <v-client-table :columns="columns" :data="data" :options="options">
+    <input name="textfield0" type="text" class="textField" id="tField0">
+    <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0);" >
+      <option value=""></option>
+
+      <option v-for="item in items">
+        {{ item.word }}
+      </option>
+    </select>
+  </v-client-table>
+</div>
+
+
+<script>
+  Vue.use(VueTables.ClientTable);
+
+  new Vue({
+    el: '#word',
+    columns: [
+      'title',
+      'text',
+      'items'
+    ],
+    data:
+[
+  {
+'title': 'USB',
+'text': 'home'
+  }
+],
+'items':  [
+    
+<%
+  file=new File(application.getRealPath("rireki"));
+  objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+  line = "";
+while((line = objBr.readLine()) != null){
+      out.println("{ word: '" + line + "' },");
+}
+objBr.close();
+%>
+          ]
+  },
+    options: {
+	    columnsDropdown: true, 
+      headings: {
+        title: 'Category',
+        text: 'Search Word',
+        items: 'Select'
+      },
+      sortable: [
+        'title'
+      ],
+      texts: {
+        filterPlaceholder: '検索する'
+      }
+    }
+});
+
+</script>
+
+-->
+
+<table><tr>
+<td>
       USB検索ワード:
+</td>
+<td>
       <input name="textfield0" type="text" class="textField" id="tField0">
+</td>
+<td>
       <select name="select0" class="selectBox" id="selBox0" onChange="getSelect(0);" >
       <option value=""></option>
 <%
@@ -169,9 +242,14 @@ while((line = objBr.readLine()) != null){
 objBr.close();
 %>
       </select>
-<br>
+</td>
+</tr>
+<tr>
+<td>
       Youtube検索ワード:
+</td><td>
       <input name="textfield1" type="text" class="textField" id="tField1">
+</td><td>
       <select name="select1" class="selectBox" id="selBox1" onChange="getSelect(1)">
       <option value=""></option>
 <%
@@ -184,22 +262,9 @@ while((line = objBr.readLine()) != null){
 objBr.close();
 %>
       </select>
-<!-- br>
-      検索ワード？
-      <input name="textfield2" type="text" class="textField" id="tField2">
-      <select name="select2" class="selectBox" id="selBox2" onChange="getSelect(2)">
-      <option value=""></option>
-<%
-file=new File(application.getRealPath("rireki"));
-objBr = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
-line = "";
-while((line = objBr.readLine()) != null){
-      out.println("<option value='" + line + "'>" + line + "</option>");
-}
-objBr.close();
-%>
-      </select>
-<br -->
+</td>
+</tr>
+</table>
 
       <input type="submit" value="検索" />
     </form>
@@ -225,7 +290,7 @@ function getText(unit) {
 <div id="app">
   <v-client-table :columns="columns" :data="data" :options="options">
     <slot slot="url" slot-scope="props">
-    <button @click="submitForm(props.row.url,'')">Play</button>
+    <button @click="submitForm(props.row.url,'')" style="height: 4em">Play</button><button @click="submitForm(props.row.url,'oops')" style="height: 4em">Karaoke</button>
     </slot>
   </v-client-table>
 </div>
@@ -243,7 +308,7 @@ new Vue({
     
       'album',
       'title',
-      'url'
+      'url',
     ],
     data: getData(),
     options: {
@@ -253,7 +318,7 @@ new Vue({
 
         album: 'アルバム',
         title: 'タイトル',
-        url: 'Button'
+        url: 'Button',
       },
       sortable: [
         'album', 'title'

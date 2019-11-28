@@ -45,7 +45,8 @@ while [ 1 ]; do
     xte 'keydown Alt_L'
     xte 'key \ '
     xte 'keyup Alt_L'
-    xte 'key N'
+    sleep 1
+    xte 'key n'
 
     sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
     sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
