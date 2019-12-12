@@ -14,7 +14,7 @@ sudo umount /dev/${DEVICE}
 sudo mount -o iocharset=utf8 /dev/${DEVICE} /home/pi/mount/ || sudo mount /dev/${DEVICE} /home/pi/mount/
 
 if [ $? -gt 0 ] ; then
-  MusicDir=/home/pi/Videos/
+  MusicDir=/home/pi/Music/
   echo $MusicDir > MusicDir
   echo No USB...
   echo ${MusicDir}

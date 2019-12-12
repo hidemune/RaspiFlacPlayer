@@ -22,5 +22,11 @@ if [ "${ext}" = "flac" ]; then
   fi
 else
   sudo -u pi cvlc --play-and-exit "$1" &
+  sleep 2
+    xte 'keydown Alt_L'
+    xte 'key  '
+    xte 'keyup Alt_L'
+    sleep 1
+    xte 'key x'
 fi
 echo Player started.

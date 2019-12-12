@@ -20,6 +20,12 @@ echo Play : 「"$1"」vol: ${volume}
 #else
   if [ "$effect" = "" ]; then
     sudo -u pi cvlc --play-and-exit "$1" &
+  sleep 2
+    xte 'keydown Alt_L'
+    xte 'key  '
+    xte 'keyup Alt_L'
+    sleep 1
+    xte 'key x'
   else
     sudo -u pi cvlc --play-and-exit "$1" --audio-filter karaoke &
   fi

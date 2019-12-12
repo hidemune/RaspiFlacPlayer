@@ -1,28 +1,333 @@
-/home/pi/Videos/Ducati7Chome.mp4
-/home/pi/Videos/MusicSample/08 - イルカ - 僕のLovely Girl.flac
-/home/pi/Videos/MusicSample/iruka_FollowMe_1.flac
-/home/pi/Videos/MusicSample/iruka_FollowMe_2.flac
-/home/pi/Videos/MusicSample/僕のLovely Girl.flac
-/home/pi/Videos/PlaneShort.mp4
-/home/pi/Videos/River - 14205.mp4
-/home/pi/Videos/Sky.m4v
-/home/pi/Videos/UNISON SQUARE GARDEN「プログラムcontinued(15th style)」Music Video.mp4
-/home/pi/Videos/USG_fun_time_724_1.m4v
-/home/pi/Videos/USG_fun_time_724_2.m4v
-/home/pi/Videos/Usg Coast.m4v
-/home/pi/Videos/Usg Invisible Sensation.m4v
-/home/pi/Videos/Usg Invisible Sensation2.m4v
-/home/pi/Videos/Usg Invisible Sensation3.m4v
-/home/pi/Videos/Usg Invisible Sensation4.m4v
-/home/pi/Videos/Usg Que.m4v
-/home/pi/Videos/Usg20180307Dvd.m4v
-/home/pi/Videos/YmckDVD.MP4
-/home/pi/Videos/emotion.m4v
-/home/pi/Videos/heboris.mp4
-/home/pi/Videos/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.mp4
-/home/pi/Videos/【1日限定公開】UNISON SQUARE GARDEN「Phantom Joke」 - YouTube.m4v
-/home/pi/Videos/宇宙の大きさを体感できる動画（Mitaka 版.mp4
-/home/pi/Videos/坂口有望 bluesigns short.m4v
-/home/pi/Videos/坂口有望 「地球-まる-」 Music Video - YouTube.mp4
-/home/pi/Videos/坂口有望 『好-じょし-』Music Video - YouTube.mp4
-/home/pi/Videos/坂口有望 放課後ジャーニー_Short.m4v
+/home/pi/Music/Record192/AsCloseAsPossible_a.flac
+/home/pi/Music/Record192/AsCloseAsPossible_b.flac
+/home/pi/Music/Record192/BestYearOfMyLife_a.flac
+/home/pi/Music/Record192/BestYearOfMyLife_b.flac
+/home/pi/Music/Record192/K_Oda_a2.flac
+/home/pi/Music/Record192/K_Oda_b.flac
+/home/pi/Music/Record192/NiagaraTriangleVol2_a.flac
+/home/pi/Music/Record192/NiagaraTriangleVol2_b.flac
+/home/pi/Music/Record192/OffCourse_BackStreetsOfTokyo_a.flac
+/home/pi/Music/Record192/OffCourse_BackStreetsOfTokyo_b.flac
+/home/pi/Music/Record192/OffCourse_Selection1973-78_a.flac
+/home/pi/Music/Record192/OffCourse_Selection1973-78_b.flac
+/home/pi/Music/Record192/OffCourse_Selection1978-81_a.flac
+/home/pi/Music/Record192/OffCourse_Selection1978-81_b.flac
+/home/pi/Music/Record192/Over_a.flac
+/home/pi/Music/Record192/Over_b.flac
+/home/pi/Music/Record192/Ozaki_kaikisen_a.flac
+/home/pi/Music/Record192/Ozaki_kaikisen_b.flac
+/home/pi/Music/Record192/RichardClayderman_a.flac
+/home/pi/Music/Record192/RichardClayderman_b.flac
+/home/pi/Music/Record192/alfee_PageOne_a.flac
+/home/pi/Music/Record192/alfee_PageOne_b.flac
+/home/pi/Music/Record192/alfee_law_a.flac
+/home/pi/Music/Record192/alfee_law_b.flac
+/home/pi/Music/Record192/iruka_live_1.flac
+/home/pi/Music/Record192/iruka_live_2.flac
+/home/pi/Music/Record192/iruka_tiisanasota_1.flac
+/home/pi/Music/Record192/iruka_tiisanasota_2.flac
+/home/pi/Music/Record192/taito-a_(100).flac
+/home/pi/Music/Record192/taito-b_(100).flac
+/home/pi/Music/Record384/CultureClub_ColourByNumbers_1.flac
+/home/pi/Music/Record384/CultureClub_ColourByNumbers_2.flac
+/home/pi/Music/Record384/iruka_FollowMe_1.flac
+/home/pi/Music/Record384/iruka_FollowMe_2.flac
+/home/pi/Music/Record384/iruka_我が心の友へ_1.flac
+/home/pi/Music/Record384/iruka_我が心の友へ_2.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/01 - 5分後のスターダスト (B.C style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/01 - ピストルギャラクシー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/02 - ガリレオのショーケース (D.A style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/02 - 三月物語.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/03 - I wanna believe、夜を行く (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/03 - 一人思うは雨の中 (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/04 - シグナルABC.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/04 - スノウリバース (B.C style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/05 - ギャクテンサヨナラ (B.C style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/05 - 東京シナリオ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/06 - RUNNERS HIGH REPRISE.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/06 - 空の飛び方 (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/07 - flat song.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/07 - 僕は君になりたい (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/08 - UNOストーリー (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/08 - スノウループ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/09 - over driver (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/09 - サンタクロースは渋滞中.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/10 - さよならサマータイムマシン (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/10 - リトルタイムストップ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/11 - きみはいい子.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/11 - 誰かが忘れているかもしれない僕らに大事な001のこと (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/12 - さわれない歌.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/12 - ラディアルナイトチェイサー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/13 - Micro Paradiso.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/13 - 三日月の夜の真ん中 (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/14 - たらればわたがし.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/14 - ラブソングは突然に~What is the name of that mystery~.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/15 - ここで会ったがけもの道.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/15 - ノンフィクションコンパス (B.C mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/16 - セク×カラ×シソンズール.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Bee side Sea side ~B-side Collection Album~/16 - プログラムcontinued (15th style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/01 - to the CIDER ROAD.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/02 - ため息 shooting the MOON.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/03 - リニアブルーを聴きながら (「劇場版 TIGER&BUNNY The Beginning」主題歌).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/04 - like coffeeのおまじない.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/05 - お人好しカメレオン.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/06 - 光のどけき春の日に.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/07 - クロスハート1号線 (advantage in a long time).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/08 - セレナーデが止まらない.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/09 - 流星のスコール.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/10 - Miss.サンディ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/11 - crazy birthday.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/12 - 君はともだち.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - CIDER ROAD/13 - シャンデリア・ワルツ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/01 - サイレンインザスパイ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/02 - シューゲイザースピーカー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/03 - 桜のあと (all quartets lead to the_).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/04 - 蒙昧termination.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/05 - 君が大人になってしまう前に.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/06 - メカトル時空探検隊.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/07 - 流れ星を撃ち落せ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/08 - 何かが変わりそう.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/09 - harmonized finale.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/10 - 天国と地獄.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/11 - instant EGOIST.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Catcher In The Spy (disc 1)/12 - 黄昏インザスパイ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/01 - アンドロメダ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/02 - フルカラープログラム (D.A style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/03 - 徹頭徹尾夜な夜なドライブ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/04 - ガリレオのショーケース (D.A style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/05 - 23_25 (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/06 - 夕凪、アンサンブル.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/07 - kid, I like quartet (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/08 - 誰かが忘れているかもしれない僕らに大事な001のこと (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/09 - 天国と地獄.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/10 - 未完成デイジー (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/11 - シャンデリア・ワルツ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/12 - 場違いハミングバード (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/13 - 箱庭ロック・ショー (D.A style).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/14 - クローバー (D.A mix).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/15 - プログラムcontinued.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - DUGOUT ACCIDENT/16 - さわれない歌.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/01 - エアリアルエイリアン.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/02 - アトラクションがはじまる(they call it “NO.6”).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/03 - シュガーソングとビターステップ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/04 - マイノリティ・リポート(darling, I love you).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/05 - オトノバ中間試験.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/06 - マジョリティ・リポート(darling, I love you).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/07 - BUSTER DICE MISERY.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/08 - パンデミックサドンデス.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/09 - 8月、昼中の流れ星と飛行機雲.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/10 - フライデイノベルス.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/11 - mix juiceのいうとおり.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Dr.Izzy/12 - Cheap Cheap Endroll.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/01 - メッセンジャーフロム全世界.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/02 - コーヒーカップシンドローム.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/03 - チャイルドフッド・スーパーノヴァ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/04 - cody beats.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/05 - 気まぐれ雑踏.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/06 - キライ = キライ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/07 - ライドオンタイム.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/08 - meet the world time.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/09 - 夜が揺れている.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/10 - アイラブニージュー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/11 - スノウアンサー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - JET CO/12 - 23_25.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/01 - Own Civilization (nano-mile met).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/02 - Dizzy Trickster.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/03 - オーケストラを観にいこう.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/04 - fake town baby.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/05 - 静謐甘美秋暮抒情.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/06 - Silent Libre Mirage.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/07 - MIDNIGHT JUNGLE.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/08 - フィクションフリーククライシス.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/09 - Invisible Sensation.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/10 - 夢が覚めたら(at that river).flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/11 - 10% roll, 10% romance.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - MODE MOOD MODE/12 - 君の瞳に恋してない.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/01 - 3 minutes replay.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/02 - kid, I like quartet.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/03 - プロトラクト・カウントダウン.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/04 - きみのもとへ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/05 - 僕らのその先.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/06 - スカースデイル.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/07 - ワールドワイド・スーパーガール.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/08 - CAPACITY超える.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/09 - 場違いハミングバード.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/10 - カウンターアイデンティティ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/11 - 未完成デイジー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/12 - オリオンをなぞる.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - Populus Populus/13 - シュプレヒコール〜世界が終わる前に〜.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/01 - カラクリカルカレ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/02 - センチメンタルピリオド.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/03 - サンポサキマイライフ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/04 - デイライ協奏楽団.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/05 - 等身大の地球.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/06 - MR.アンディ -party style-.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/07 - WINDOW開ける.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/08 - マスターボリューム.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/09 - いつかの少年.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/10 - 箱庭ロック・ショー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - UNISON SQUARE GARDEN/11 - クローバー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/01 - オリオンをなぞる.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/02 - 僕は君になりたい.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/03 - UNOストーリー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/04 - over driver.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/05 - カラクリカルカレ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/06 - 23_25.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - オリオンをなぞる/07 - ガリレオのショーケース.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/01 - UNISON SQUARE GARDEN - アナザーワールド.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/02 - UNISON SQUARE GARDEN - センチメンタルピリオド.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/03 - UNISON SQUARE GARDEN - さよなら第九惑星.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/04 - UNISON SQUARE GARDEN - サーチライト.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/05 - UNISON SQUARE GARDEN - ライトフライト.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 新世界ノート/06 - UNISON SQUARE GARDEN - 箱庭ロック・ショー.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/01 - 流星前夜.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/02 - フルカラープログラム.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/03 - 水と雨について.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/04 - 2月、白昼の流れ星と飛行機雲.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/05 - MR.アンディ.flac
+/home/pi/Music/UNISON/A) UNISON SQUARE GARDEN - 流星前夜/06 - 流星行路.flac
+/home/pi/Music/UNISON/A01) 01 - UNISON SQUARE GARDEN - サイボーグ99%.flac
+/home/pi/Music/UNISON/A01) 08 - イズミカワソラ - タイムカプセル.flac
+/home/pi/Music/UNISON/A01) 12 - 斎藤宏介 - 絵の具.flac
+/home/pi/Music/UNISON/A02) 09 - UNISON SQUARE GARDEN - Fool on the planet.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 10% roll_10% romance/01 - 10% roll 10% romance.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 10% roll_10% romance/02 - RUNNERS HIGH REPRISE.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 10% roll_10% romance/03 - flat song.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Catch up latency/01 - Catch up  latency.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Catch up latency/02 - たらればわたがし.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Catch up latency/03 - ここで会ったがけもの道.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Phantom Joke/01 - UNISON SQUARE GARDEN - Phantom Joke.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Phantom Joke/02 - UNISON SQUARE GARDEN - ぼくたちのしっぱい.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - Phantom Joke/03 - UNISON SQUARE GARDEN - mouth to mouse (sent you).flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - cody beats/01 - cody beats.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - cody beats/02 - ギャクテンサヨナラ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - cody beats/03 - 空の飛び方.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - fake town baby/01 - fake town baby.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - fake town baby/02 - リトルタイムストップ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - fake town baby/03 - きみはいい子.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - harmonized finale (disc 1)/01 - harmonized finale.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - harmonized finale (disc 1)/02 - ピストルギャラクシー.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - harmonized finale (disc 1)/03 - 三月物語.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - harmonized finale (disc 1)/04 - I wanna believe、夜を行く.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/01 - Invisible Sensation.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/02 - スノウループ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 『ボールルームへようこそ』OP_Invisible Sensation/03 - サンタクロースは渋滞中.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - シュガーソングとビターステップ/01 - シュガーソングとビターステップ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - シュガーソングとビターステップ/02 - シグナルABC.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - シュガーソングとビターステップ/03 - 東京シナリオ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - センチメンタルピリオド/01 - センチメンタルピリオド.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - センチメンタルピリオド/02 - 5分後のスターダスト.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - センチメンタルピリオド/03 - ガリレオのショーケース.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - マスターボリューム/01 - マスターボリューム.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - マスターボリューム/02 - 一人思うは雨の中.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - マスターボリューム/03 - スノウリバース.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - リニアブルーを聴きながら/01 - リニアブルーを聴きながら.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - リニアブルーを聴きながら/02 - さわれない歌.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - リニアブルーを聴きながら/03 - 三日月の夜の真ん中.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - リニアブルーを聴きながら/04 - ラブソングは突然に 〜What is the name of that mystery？〜.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/01 - 桜のあと (all quartets lead to the_).flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/02 - ノンフィクションコンパス.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the_) (disc 1)/03 - セク×カラ×シソンズール.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 春が来てぼくら/01 - 春が来てぼくら.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 春が来てぼくら/02 - ラディアルナイトチェイサー.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 春が来てぼくら/03 - Micro Paradiso.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/01 - UNISON SQUARE GARDEN - 流星のスコール.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/02 - UNISON SQUARE GARDEN - さよならサマータイムマシン.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/03 - UNISON SQUARE GARDEN - 誰かが忘れているかも知れない僕らに大事な001のこと.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/04 - UNISON SQUARE GARDEN - カウンターアイデンティティ.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/05 - UNISON SQUARE GARDEN - ワールドワイド・スーパーガール.flac
+/home/pi/Music/UNISON/S) UNISON SQUARE GARDEN - 流星のスコール/06 - UNISON SQUARE GARDEN - フルカラープログラム.flac
+/home/pi/Music/UNISON/S01) 0010887898.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/01 - Track 1.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/02 - Track 2.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/03 - Track 3.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/04 - Track 4.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/05 - Track 5.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/06 - Track 6.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/07 - Track 7.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/08 - unknown 8 - Track 8.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc1/09 - Track 9.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/01 - Track 1.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/02 - Track 2.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/03 - Track 3.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/04 - Track 4.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/05 - Track 5.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/06 - Track 6.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/07 - Track 7.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/08 - Track 8.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/09 - Track 9.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/10 - Track 10.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/11 - Track 11.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/12 - Track 12.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - Live2018 disc2/13 - Track 13.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/01 - Track 1.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/02 - Track 2.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/03 - Track 3.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/04 - Track 4.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/05 - Track 5.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/06 - Track 6.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/07 - Track 7.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/08 - Track 8.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/09 - Track 9.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/10 - Track 10.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - LiveCD/11 - Track 11.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/01 - unknown 1 - Track 1.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/02 - unknown 2 - Track 2.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/03 - unknown 3 - Track 3.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/04 - unknown 4 - Track 4.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/05 - unknown 5 - Track 5.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/06 - unknown 6 - Track 6.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/07 - unknown 7 - Track 7.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/08 - unknown 8 - Track 8.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/09 - unknown 9 - Track 9.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/10 - unknown 10 - Track 10.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/11 - unknown 11 - Track 11.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN - zepp tokyo 20170607/12 - unknown 12 - Track 12.flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/01 - UNISON SQUARE GARDEN - Own Civilization (nano-mile met) [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/02 - UNISON SQUARE GARDEN - 場違いハミングバード [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/03 - UNISON SQUARE GARDEN - Invisible Sensation [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/04 - UNISON SQUARE GARDEN - 桜のあと (all quartets lead to the) [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/05 - UNISON SQUARE GARDEN - 等身大の地球 [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/06 - UNISON SQUARE GARDEN - Silent Libre Mirage [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/07 - UNISON SQUARE GARDEN - アトラクションがはじまる(they call it NO.6) [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/08 - UNISON SQUARE GARDEN - シュガーソングとビターステップ [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/09 - UNISON SQUARE GARDEN - フィクションフリーククライシス [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/10 - UNISON SQUARE GARDEN - 静謐甘美秋暮抒情 [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/11 - UNISON SQUARE GARDEN - 夜が揺れている [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/12 - UNISON SQUARE GARDEN - クローバー [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 1]/13 - UNISON SQUARE GARDEN - オーケストラを観にいこう [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/01 - UNISON SQUARE GARDEN - fake town baby [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/02 - UNISON SQUARE GARDEN - Catch up, latency [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/03 - UNISON SQUARE GARDEN - ドラムソロ [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/04 - UNISON SQUARE GARDEN - MIDNIGHT JUNGLE [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/05 - UNISON SQUARE GARDEN - 君の瞳に恋してない [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/06 - UNISON SQUARE GARDEN - 徹頭徹尾夜な夜なドライブ [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/07 - UNISON SQUARE GARDEN - 春が来てぼくら [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/08 - UNISON SQUARE GARDEN - crazy birthday [Live].flac
+/home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/09 - UNISON SQUARE GARDEN - Dizzy Trickster [Live].flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/02 - おはなし.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/03 - お別れをする時は.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/04 - 月には内緒で.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/05 - 厚底.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/06 - １４才の唄-Album Ver.-.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/07 - 紺色の主張.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/08 - １５歳の詩.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/09 - さよならロマン.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/10 - ばかやろう.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/11 - 革命を.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/12 - 好-じょし-.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/13 - 地球-まる-.flac
+/home/pi/Music/坂口有望/坂口有望 - blue signs/14 - １６さいのうた-Album Ver.-.flac
+/home/pi/Music/坂口有望/坂口有望 - 空っぽの空が僕はきらいだ/01 - 空っぽの空が僕はきらいだ.flac
+/home/pi/Music/坂口有望/坂口有望 - 空っぽの空が僕はきらいだ/02 - ばかやろう.flac
+/home/pi/Music/坂口有望/坂口有望 - 空っぽの空が僕はきらいだ/03 - ガタゴト.flac
+/home/pi/Music/坂口有望/坂口有望 - 好-じょし-/01 - 好-じょし-.flac
+/home/pi/Music/坂口有望/坂口有望 - 好-じょし-/02 - 紺色の主張.flac
+/home/pi/Music/坂口有望/坂口有望 - 好-じょし-/03 - １６さいのうた-Studio Live Ver.-.flac
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/0014141760.320.m4a
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/01 - musicaian.flac
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/02 - 青春.flac
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/03 - 3341.flac
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/04 - fruits.flac
+/home/pi/Music/坂口有望/坂口有望 - 放課後ジャーニー/05 - いつか.flac
