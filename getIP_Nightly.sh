@@ -3,6 +3,8 @@
 #sudo ifdown eth0 --force
 #sudo ifup eth0
 
+xdotool mousemove 200 200
+
 for i in [ 1..30 ]; do
   ip2=`hostname -I | awk '{print $1}'`
   if [[ "$ip2" == 192* ]]; then

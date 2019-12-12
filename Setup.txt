@@ -68,7 +68,7 @@ proxy_set_header X-Forwarded-Host $host;
 
 # sonota
 
-sudo apt-get install -y sox bc
+sudo apt-get install -y sox bc xdotool qrencode
 cd /home/pi
 mkdir mount
 
