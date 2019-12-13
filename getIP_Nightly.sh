@@ -40,11 +40,12 @@ else
   echo "LANケーブルが接続されていないため、ネットワーク機能は利用できません。" > url.txt
   open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice -r 1.0 -ow url.wav url.txt
 
-  #touch /var/lib/tomcat8/webapps/ROOT/start
+  touch /var/lib/tomcat8/webapps/ROOT/start
 fi
 
 while [ 1 ]; do
   if [ -f /var/lib/tomcat8/webapps/ROOT/start ]; then
+    sleep 1
     xte 'keydown Alt_L'
     xte 'key  '
     xte 'keyup Alt_L'
@@ -60,7 +61,7 @@ while [ 1 ]; do
     exit 0
   else
     aplay url.wav 2>/dev/null
-    touch /var/lib/tomcat8/webapps/ROOT/start
+    #touch /var/lib/tomcat8/webapps/ROOT/start
   fi
   sleep 1
 done
