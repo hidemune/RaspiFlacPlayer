@@ -45,7 +45,9 @@ fi
 
 while [ 1 ]; do
   if [ -f /var/lib/tomcat8/webapps/ROOT/start ]; then
-    sleep 1
+    wid=$(xdotool search --onlyvisible --name sudo)
+    echo wid : $wid
+    xdotool windowactivate $wid
     xte 'keydown Alt_L'
     xte 'key  '
     xte 'keyup Alt_L'
