@@ -48,7 +48,7 @@ while [ 1 ]; do
     xte 'keydown Alt_L'
     xte 'key  '
     xte 'keyup Alt_L'
-    sleep 1
+    sleep 2
     xte 'key n'
 
     sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh

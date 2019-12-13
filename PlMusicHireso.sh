@@ -22,7 +22,11 @@ if [ "${ext}" = "flac" ]; then
   fi
 else
   sudo -u pi cvlc --play-and-exit "$1" &
-  sleep 2
+  while [ "$(xdotool search --onlyvisible --name vlc)" == "" ] ; 
+  do 
+    sleep 1 
+  done
+    sleep 1
     xte 'keydown Alt_L'
     xte 'key  '
     xte 'keyup Alt_L'
