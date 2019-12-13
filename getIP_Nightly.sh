@@ -5,7 +5,7 @@
 
 xdotool mousemove 200 200
 
-for i in [ 1..30 ]; do
+for i in [ 1..45 ]; do
   ip2=`hostname -I | awk '{print $1}'`
   if [[ "$ip2" == 192* ]]; then
     break
@@ -48,7 +48,7 @@ while [ 1 ]; do
     xte 'keydown Alt_L'
     xte 'key  '
     xte 'keyup Alt_L'
-    sleep 2
+    sleep 1
     xte 'key n'
 
     sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
