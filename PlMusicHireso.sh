@@ -22,15 +22,17 @@ if [ "${ext}" = "flac" ]; then
   fi
 else
   sudo -u pi cvlc --play-and-exit "$1" &
-  while [ "$(xdotool search --onlyvisible --name vlc)" == "" ] ; 
-  do 
-    sleep 1 
+  for i in {0..45}; do
+    if [ "$(xdotool search --onlyvisible --name vlc)" != "" ] ; then
+      sleep 1
+      xte 'keydown Alt_L'
+      xte 'key  '
+      xte 'keyup Alt_L'
+      sleep 1
+      xte 'key x'
+      break
+    fi
+    sleep 1
   done
-    sleep 1
-    xte 'keydown Alt_L'
-    xte 'key  '
-    xte 'keyup Alt_L'
-    sleep 1
-    xte 'key x'
 fi
 echo Player started.
