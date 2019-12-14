@@ -66,7 +66,7 @@ function nextMusic() {
     }
     objBr.close();
 
-  for(int i=100;i >= 0;i = i - 10){
+  for(int i=100;i >= 60;i = i - 5){
     String num = "    " + i;
     num = num.substring(num.length()-4,num.length()).replace(" ","&nbsp;");
 %>

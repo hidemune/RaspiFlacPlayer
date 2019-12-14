@@ -296,10 +296,7 @@ function getText(unit) {
 <div id="app">
   <v-client-table :columns="columns" :data="data" :options="options">
     <slot slot="url" slot-scope="props">
-    <button @click="submitForm(props.row.url,'')" style="height: 4em">Play</button>
-    <!--
-    <button @click="submitForm(props.row.url,'oops')" style="height: 4em">Karaoke</button>
-    -->
+    <button :id="props.row.id" @click="submitForm(props.row.url,'',props.row.id)" style="height: 4em">Play</button>
     </slot>
   </v-client-table>
 </div>
@@ -313,8 +310,10 @@ Vue.use(VueTables.ClientTable);
 new Vue({
   el: "#app",
   data: {
+    count: 0,
+    str1: "xxx",
     columns: [
-    
+      'id',
       'album',
       'title',
       'url',
@@ -338,15 +337,16 @@ new Vue({
     }
   },
   methods: {
-    submitForm: function (filename, oops) {
-      alert(filename);
+    submitForm: function (filename, oops, id) {
+      //alert(filename);
       var http = new XMLHttpRequest();
       http.open("POST", "kettei.jsp", true);
       http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
       var params = "filename=" + encodeURIComponent(filename) + "&effect=" + oops ;
       http.send(params);
       http.onload = function() {
-          //alert(http.responseText);
+        $("#header").html( $("#header").html() + "<a href='#'>" + filename + "</a><br>");
+        $("#" + id).css("background-color" , "#00cccc");
       }
     }
   }
@@ -364,8 +364,10 @@ line = "";
 
 int buttonid = 0;
 if (!(strTxt0.equals(""))) {
+int count = 0;
 while((line = objBr.readLine()) != null){
     StringTokenizer objTkn=new StringTokenizer(line,"\n");
+    
     while(objTkn.hasMoreTokens()){
       String csvLine = objTkn.nextToken();
       boolean flg = true;
@@ -375,6 +377,8 @@ while((line = objBr.readLine()) != null){
       if (flg) {
         String[] cols = csvLine.split("\t", -1);
         out.println("{");
+        count = count + 1;
+        out.println("'id': 'id_" + count + "',");
         out.println("'artist': '" + cols[1] + "',");
         out.println("'album': '" + cols[2] + "',");
         out.println("'title': '" + cols[3] + "',");
@@ -396,6 +400,7 @@ if (!(strTxt1.equals(""))) {
     
     BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream()));
     String line2 = reader.readLine();
+    int count = 0;
     while(line2 != null) {
       //out.println(line2.replace("<","&lt;").replace(">","&gt;"));
       boolean flg = true;
@@ -425,6 +430,8 @@ if (!(strTxt1.equals(""))) {
           }
           if (!(textstr.equals(""))) {  
         out.println("{");
+        count = count + 1;
+        out.println("'id': 'id_" + count + "',");
         out.println("'artist': '-',");
         out.println("'album': '-',");
         out.println("'title': '" + textstr + "',");

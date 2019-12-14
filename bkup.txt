@@ -1,3 +1,6 @@
+/home/pi/Music/Ducati/Ducati7Chome.mp4
+/home/pi/Music/Ducati/リーシェ帰り.mp4
+/home/pi/Music/Ducati/リーシェ行き.mp4
 /home/pi/Music/Record192/AsCloseAsPossible_a.flac
 /home/pi/Music/Record192/AsCloseAsPossible_b.flac
 /home/pi/Music/Record192/BestYearOfMyLife_a.flac
@@ -305,6 +308,17 @@
 /home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/07 - UNISON SQUARE GARDEN - 春が来てぼくら [Live].flac
 /home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/08 - UNISON SQUARE GARDEN - crazy birthday [Live].flac
 /home/pi/Music/UNISON/UNISON SQUARE GARDEN TOUR 2019 MODE MOOD MODE ENCORE [Disc 2]/09 - UNISON SQUARE GARDEN - Dizzy Trickster [Live].flac
+/home/pi/Music/Video/UNISON SQUARE GARDEN/UNISON SQUARE GARDEN「プログラムcontinued(15th style)」Music Video.mp4
+/home/pi/Music/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation.m4v
+/home/pi/Music/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation2.m4v
+/home/pi/Music/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation3.m4v
+/home/pi/Music/Video/UNISON SQUARE GARDEN/Usg Invisible Sensation4.m4v
+/home/pi/Music/Video/UNISON SQUARE GARDEN/Usg20180307Dvd.m4v
+/home/pi/Music/Video/UNISON SQUARE GARDEN/【1日限定公開】UNISON SQUARE GARDEN「Catch up, latency」 - YouTube.mp4
+/home/pi/Music/Video/坂口有望/坂口有望 bluesigns short.m4v
+/home/pi/Music/Video/坂口有望/坂口有望 「地球-まる-」 Music Video - YouTube.mp4
+/home/pi/Music/Video/坂口有望/坂口有望 『好-じょし-』Music Video - YouTube.mp4
+/home/pi/Music/Video/坂口有望/坂口有望 放課後ジャーニー_Short.m4v
 /home/pi/Music/坂口有望/坂口有望 - blue signs/01 - 空っぽの空が僕はきらいだ.flac
 /home/pi/Music/坂口有望/坂口有望 - blue signs/02 - おはなし.flac
 /home/pi/Music/坂口有望/坂口有望 - blue signs/03 - お別れをする時は.flac
