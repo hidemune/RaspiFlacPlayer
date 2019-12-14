@@ -27,6 +27,7 @@ else
       sleep 1
       xte 'keydown Alt_L'
       xte 'key  '
+      xte 'key \ '
       xte 'keyup Alt_L'
       sleep 1
       xte 'key x'

@@ -50,6 +50,7 @@ while [ 1 ]; do
     xdotool windowactivate $wid
     xte 'keydown Alt_L'
     xte 'key  '
+    xte 'key \ '
     xte 'keyup Alt_L'
     sleep 1
     xte 'key n'
