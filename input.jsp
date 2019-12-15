@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
- import="java.lang.*,java.io.*,java.util.*,java.text.*,java.nio.file.*" %>
+ import="java.lang.*,java.io.*,java.util.*,java.text.*,java.nio.file.*,java.net.*" 
+
+%>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -342,10 +344,10 @@ new Vue({
       var http = new XMLHttpRequest();
       http.open("POST", "kettei.jsp", true);
       http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-      var params = "filename=" + encodeURIComponent(filename) + "&effect=" + oops ;
+      var params = "filename=" + filename + "&effect=" + oops ;
       http.send(params);
       http.onload = function() {
-        $("#header").html( $("#header").html() + "<a href='#'>" + filename + "</a><br>");
+        $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(filename) + "</a><br>");
         $("#" + id).css("background-color" , "#00cccc");
       }
     }
@@ -379,10 +381,10 @@ while((line = objBr.readLine()) != null){
         out.println("{");
         count = count + 1;
         out.println("'id': 'id_" + count + "',");
-        out.println("'artist': '" + cols[1] + "',");
-        out.println("'album': '" + cols[2] + "',");
-        out.println("'title': '" + cols[3] + "',");
-        out.println("'url': '" + cols[0] + "',");
+        out.println("'artist': '" + cols[1].replace("'", "’") + "',");
+        out.println("'album': '" + cols[2].replace("'", "’") + "',");
+        out.println("'title': '" + cols[3].replace("'", "’") + "',");
+        out.println("'url': '" + URLEncoder.encode(cols[0],"utf-8") + "',");
         out.println("'volume': '" + cols[4] + "'");
         
         buttonid = buttonid + 1;
