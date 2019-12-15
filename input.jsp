@@ -341,7 +341,7 @@ new Vue({
   methods: {
     submitForm: function (filename, oops, id) {
       if (decodeURIComponent(filename) == "-") {
-        return
+        return true;
       }
       //alert(filename);
       var http = new XMLHttpRequest();
