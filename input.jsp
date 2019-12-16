@@ -316,9 +316,9 @@ new Vue({
     str1: "xxx",
     columns: [
       'id',
+      'url',
       'album',
       'title',
-      'url',
     ],
     data: getData(),
     options: {
@@ -351,7 +351,10 @@ new Vue({
       http.send(params);
       http.onload = function() {
         $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(filename) + "</a><br>");
-        $("#" + id).css("background-color" , "#00cccc");
+        $("#header").css("background-color", "#00cccc");
+        setTimeout(function () {
+          $("#header").css("background-color", "#daeff5");
+        }, 500);
       }
     }
   }
