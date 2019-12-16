@@ -19,7 +19,6 @@
 
 <div id="header"><!-- ここはヘッダです -->
 
-    <form method="GET" action="input.jsp">
 <a href="input.jsp" target="_top">
 <%
   //write
@@ -230,6 +229,8 @@ objBr.close();
 
 -->
 
+<form method="GET" action="input.jsp">
+
 <table><tr>
 <td>
       USB検索ワード:
@@ -359,6 +360,7 @@ new Vue({
           }, 1500);
         }, 500);
       }
+      return false;
     }
   }
 });
