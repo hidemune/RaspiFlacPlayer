@@ -315,7 +315,6 @@ new Vue({
     count: 0,
     str1: "xxx",
     columns: [
-      'id',
       'url',
       'album',
       'title',
@@ -352,8 +351,12 @@ new Vue({
       http.onload = function() {
         $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(filename) + "</a><br>");
         $("#header").css("background-color", "#00cccc");
+        
         setTimeout(function () {
           $("#header").css("background-color", "#daeff5");
+          $("#header").delay(100).animate({
+            scrollTop: $(document).height()
+          }, 1500);
         }, 500);
       }
     }
