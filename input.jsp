@@ -300,7 +300,7 @@ function getText(unit) {
 <div id="app">
   <v-client-table :columns="columns" :data="data" :options="options">
     <slot slot="url" slot-scope="props">
-    <button :id="props.row.id" @click="submitForm(props.row.url,'',props.row.id)" style="height: 4em;  background-color: #cccccc; ">Play</button>
+    <button :id="props.row.id" @click="submitForm(props.row.title,  props.row.url,'',props.row.id)" style="height: 4em;  background-color: #cccccc; ">Play</button>
     </slot>
   </v-client-table>
 </div>
@@ -340,7 +340,7 @@ new Vue({
     }
   },
   methods: {
-    submitForm: function (filename, oops, id) {
+    submitForm: function (title, filename, oops, id) {
       if (decodeURIComponent(filename) == "-") {
         return false;
       }
@@ -351,7 +351,7 @@ new Vue({
       var params = "filename=" + filename + "&effect=" + oops ;
       http.send(params);
       http.onload = function() {
-        $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(filename) + "</a><br>");
+        $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(title) + "</a><br>");
         $("#header").css("background-color", "#00cccc");
         
         setTimeout(function () {
