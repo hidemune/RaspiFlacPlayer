@@ -37,7 +37,7 @@ input#yoyaku {
 		height: 80px;
 		padding:0px;		/*見出し内容の位置調整*/
 		font-family:"ＭＳ ゴシック",sans-serif;	/*フォントの種類*/
-		font-size:8px; font-weight:bold; text-align:center;
+		font-size:16px; font-weight:bold; text-align:center;
 		background-color:#daeff5;	/*ページ全体の背景色*/
 		color:#FFFFFF;
 		/* background-image:url(image/HP_Back.png) */
