@@ -61,16 +61,22 @@ proxy_pass http://127.0.0.1:8080;
 proxy_set_header X-Forwarded-Host $host;
 }
 
-//その他設定
+#//その他設定
 
 }
 
 
 # sonota
 
-sudo apt-get install -y sox bc xdotool qrencode
+sudo apt-get install -y sox bc xdotool qrencode flac
 cd /home/pi
 mkdir mount
+
+
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+
+#add
+lxterminal -e sudo /home/pi/git/RaspiFlacPlayer/usbMusicList.sh
 
 
 # 実行

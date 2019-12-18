@@ -18,6 +18,7 @@
     BufferedWriter objBwC=new BufferedWriter(objFwC);
     objBwC.write("1\n");
     objBwC.close();
+    objFwC.close();
   }
 
   request.setCharacterEncoding("UTF-8");

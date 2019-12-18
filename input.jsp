@@ -351,7 +351,7 @@ new Vue({
       var params = "filename=" + filename + "&effect=" + oops ;
       http.send(params);
       http.onload = function() {
-        $("#header").html( $("#header").html() + "<a href='#'>" + decodeURIComponent(title) + "</a><br>");
+        $("#header").html( $("#header").html() + "<a href='#'>" + title + "</a><br>");
         $("#header").css("background-color", "#00cccc");
         
         setTimeout(function () {
@@ -461,7 +461,7 @@ if (!(strTxt1.equals(""))) {
         out.println("'id': 'id_" + count + "',");
         out.println("'artist': '-',");
         out.println("'album': '-',");
-        out.println("'title': '" + textstr + "',");
+        out.println("'title': '" + textstr.replace("'", "’").replace("&#39;", "’") + "',");
         out.println("'url': '" + hrefstr + "'");
         out.println("    },");
           }

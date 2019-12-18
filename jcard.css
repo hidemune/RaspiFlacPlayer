@@ -67,8 +67,8 @@ input#yoyaku {
     position: absolute;
 	  left: 0px;
 	  top: 20px;
-	  width: 80px;
-	  height: 200px;
+	  width: 200px;
+	  height: 80px;
 	  font-size: 3em;
     cursor: pointer;
     z-index: 100;

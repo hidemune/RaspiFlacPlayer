@@ -19,6 +19,7 @@ effect=
 
 while true :
 do
+  sync
   # QUE(Yoyaku) !
   lslst=(`ls /var/lib/tomcat8/webapps/ROOT/que* 2>/dev/null`)
   if [ ${#lslst[*]} -gt 0 ] ; then

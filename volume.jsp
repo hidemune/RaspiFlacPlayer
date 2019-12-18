@@ -23,6 +23,11 @@ function nextMusic() {
     http.send(params);
     http.onload = function() {
         //alert(http.responseText);
+        $("#iframe").css("background-color", "#00cccc");
+        
+        setTimeout(function () {
+          $("#iframe").css("background-color", "#daeff5");
+        }, 500);
     }
 }
 </script>
