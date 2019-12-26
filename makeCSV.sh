@@ -1,5 +1,7 @@
 #!/bin/bash
 
+douga_mode=1
+
 if [ "$1" == "" ] ; then
   musicpath=/home/pi/Music/
 else
@@ -11,7 +13,7 @@ i=0
 rm -f all.csv
 IFS='
 '
-for f in $(find ${musicpath} -type f -not -path "*/playerSetting/*"); do
+for f in $(find ${musicpath} -type f -not -path "*/playerSetting/*" -not -path "*/System Volume Information/*" -not -path "*/\$RECYCLE.BIN/*"); do
   fname="$f"
   base=$(basename "$f")
   vol=80
@@ -19,7 +21,11 @@ for f in $(find ${musicpath} -type f -not -path "*/playerSetting/*"); do
   if [[ ${vstr} =~ ^.*\(([0-9]+)\)$ ]]; then
     vol=${BASH_REMATCH[1]}
   fi
-  text="$(ffprobe "$f" 2>&1 1>/dev/null)"
+  if [ "$douga_mode" == 0 ]; then
+    text="$(ffprobe "$f" 2>&1 1>/dev/null)"
+  else
+    text=""
+  fi
   echo "$text"
   tracknumber="    "$(echo "$text" | grep -m 1 -i " track " | awk '{ sub("[^.]* : ",""); print $0; }')
   num=$(echo ${tracknumber} | rev | cut -c 1-3 | rev)

@@ -3,6 +3,7 @@
 cd /home/pi/git/RaspiFlacPlayer/
 ./volume.sh 100
 cp *.sh /run
+cp decision3.wav /run
 cd /run
 
 echo "準備を開始します。" > url.txt
