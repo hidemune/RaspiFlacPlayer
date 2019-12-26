@@ -47,7 +47,7 @@ sudo cp -f $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/*.csv ./
 
 MusicDir=$(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
 echo MusicDir > MusicDir
-find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "*/playerSetting/*" | sort > work.txt
+find $(lsblk -n -o MOUNTPOINT /dev/${DEVICE}) -type f -not -path "*/playerSetting/*" -not -path "*/System Volume Information/*" -not -path "*/\$RECYCLE.BIN/*"| sort > work.txt
 
 if diff -q work.txt bkup.txt >/dev/null ; then
   # Same !!!

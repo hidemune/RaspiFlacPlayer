@@ -1,6 +1,8 @@
 #!/bin/bash
 files='./all.csv'
 
+demostr=pv_デモ
+
 #IFS='
 #' images=(`cat $files`)
 
@@ -8,7 +10,7 @@ preNum=$(cat preNum)
 
 #num_images=${#images[*]}
 
-num_images=$(cat $files | wc -l)
+num_images=$(cat $files | grep $demostr | wc -l)
 
 echo MAX : $num_images
 if [ "${preNum}" == "" ] ; then
@@ -17,6 +19,7 @@ fi
 
 for i in {1..32}; do
   nextNum=$(($RANDOM % $num_images))
+  nextNum=$(echo "$nextNum + 1" | bc)
   if [ "${preNum}" != "${nextNum}" ] ; then
     preNum=${nextNum}
     echo $preNum > preNum
@@ -26,7 +29,7 @@ done
 
 echo $nextNum
 #IFS='	' fileNm=(${images[$nextNum]})
-IFS='	' fileNm=($(sed -n ${nextNum}p $files))
+IFS='	' fileNm=($(cat $files | grep $demostr | sed -n ${nextNum}p ))
 
 echo RandomFileName _ "${fileNm[0]}"
 
