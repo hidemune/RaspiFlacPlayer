@@ -5,5 +5,5 @@ if [ $(pgrep loop.sh) ] ; then
   exit 0
 fi
 
-cp -f ./all_nightly.csv ./all.csv 
+#cp -f ./all_nightly.csv ./all.csv 
 sudo ./loop.sh

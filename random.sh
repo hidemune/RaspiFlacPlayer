@@ -1,11 +1,11 @@
 #!/bin/bash
 files='./all.csv'
 
-demostr=pv_デモ
+offvocal=オフボーカル
 
 preNum=$(cat preNum)
 
-num_images=$(cat $files | grep $demostr | wc -l)
+num_images=$(cat $files | grep -v $offvocal | wc -l)
 
 echo MAX : $num_images
 if [ "${preNum}" == "" ] ; then
@@ -24,7 +24,7 @@ done
 
 echo $nextNum
 #IFS='	' fileNm=(${images[$nextNum]})
-IFS='	' fileNm=($(cat $files | grep $demostr | sed -n ${nextNum}p ))
+IFS='	' fileNm=($(cat $files | grep -v $offvocal | sed -n ${nextNum}p ))
 
 echo RandomFileName _ "${fileNm[0]}"
 

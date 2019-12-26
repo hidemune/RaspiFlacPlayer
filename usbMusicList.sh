@@ -58,7 +58,7 @@ else
   sudo cp -f work.txt bkup.txt
   sudo cp -f bkup.txt $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/bkup.txt
   ./makeCSV.sh $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})
-  sudo cp -f *.csv $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/
+  sudo cp -f all.csv $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/
   sync
   sudo ./getIP_Nightly.sh
   sudo cp -f rireki $(lsblk -n -o MOUNTPOINT /dev/${DEVICE})/playerSetting/rireki

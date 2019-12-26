@@ -59,6 +59,4 @@ while read p; do
   echo $(echo "$p" | awk '{ sub("^.*=====",""); print $0; }') >> all.csv
 done <all_dayly.csv
 
-cp -f all.csv all_dayly.csv
-cp -f all.csv all_nightly.csv
 sync
