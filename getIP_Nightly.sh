@@ -14,7 +14,6 @@ for i in [ 1..45 ]; do
 done
 
 rm -f /var/lib/tomcat8/webapps/ROOT/start
-cd /home/pi/git/RaspiFlacPlayer/
 
 #ip2=`hostname -I | awk '{print $1}'`
 
@@ -25,7 +24,7 @@ if [[ "${ip2}" == 192* ]]; then
   echo
   echo ${url}
 
-  sudo cp -f all.csv /var/lib/tomcat8/webapps/ROOT/
+  sudo cp -f ./all.csv /var/lib/tomcat8/webapps/ROOT/
 
   qrencode -t ansi "${url}"
   #aplay -D pluhw:1 /home/pi/git/ready.wav 2>/dev/null
@@ -55,8 +54,8 @@ while [ 1 ]; do
     sleep 1
     xte 'key n'
 
-    sudo /home/pi/git/RaspiFlacPlayer/startNightly.sh
-    sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
+    sudo ./startNightly.sh
+    sudo cp -f /var/lib/tomcat8/webapps/ROOT/rireki ./rireki
 
     sudo umount /home/pi/mount
     sleep 3

@@ -3,12 +3,7 @@ files='./all.csv'
 
 demostr=pv_デモ
 
-#IFS='
-#' images=(`cat $files`)
-
 preNum=$(cat preNum)
-
-#num_images=${#images[*]}
 
 num_images=$(cat $files | grep $demostr | wc -l)
 

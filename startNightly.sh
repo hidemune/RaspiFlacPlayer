@@ -5,5 +5,5 @@ if [ $(pgrep loop.sh) ] ; then
   exit 0
 fi
 
-cp -f /home/pi/git/RaspiFlacPlayer/all_nightly.csv /home/pi/git/RaspiFlacPlayer/all.csv 
-sudo /home/pi/git/RaspiFlacPlayer/loop.sh
+cp -f ./all_nightly.csv ./all.csv 
+sudo ./loop.sh

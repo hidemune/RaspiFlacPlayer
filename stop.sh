@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -f /var/lib/tomcat8/webapps/ROOT/rireki /home/pi/git/RaspiFlacPlayer/rireki
+cp -f /var/lib/tomcat8/webapps/ROOT/rireki ./rireki
 
 touch /var/lib/tomcat8/webapps/ROOT/stop
 

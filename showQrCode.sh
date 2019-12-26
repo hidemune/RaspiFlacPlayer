@@ -4,7 +4,6 @@ cd /home/pi/
 bash start-ap-management-wifi.sh
 
 rm -f /var/lib/tomcat8/webapps/ROOT/start
-cd /home/pi/git/RaspiFlacPlayer/
 
 str=`ifconfig | grep "inet 192"`
 ip=$(echo "$str" | awk '{print $2}')
