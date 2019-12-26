@@ -26,7 +26,7 @@ for f in $(find ${musicpath} -type f -not -path "*/playerSetting/*" -not -path "
   else
     text=""
   fi
-  echo "$text"
+  echo "$f"
   tracknumber="    "$(echo "$text" | grep -m 1 -i " track " | awk '{ sub("[^.]* : ",""); print $0; }')
   num=$(echo ${tracknumber} | rev | cut -c 1-3 | rev)
 
@@ -61,3 +61,4 @@ done <all_dayly.csv
 
 cp -f all.csv all_dayly.csv
 cp -f all.csv all_nightly.csv
+sync
