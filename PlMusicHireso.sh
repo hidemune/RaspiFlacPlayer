@@ -22,9 +22,14 @@ if [ "${ext}" = "flac" ]; then
   fi
 else
   sudo -u pi cvlc --play-and-exit "$1" &
+  pid_1=$!
   for i in {0..45}; do
     if [ "$(xdotool search --onlyvisible --name vlc)" != "" ] ; then
       if [ -f /var/lib/tomcat8/webapps/ROOT/stop ] ; then
+        break
+      fi
+      count=`ps -ef | grep vlc | grep -v grep | wc -l`
+      if [ $count = 0 ]; then
         break
       fi
       sleep 1
